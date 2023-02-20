@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<fx:root onContextMenuRequested="#fxSynaContextMenu" type="javafx.scene.layout.StackPane"
+         xmlns:fx="http://javafx.com/fxml">
+    <Rectangle arcHeight="10.0" arcWidth="10.0" fill="DODGERBLUE" height="48.0"
+               width="165.0" StackPane.alignment="CENTER_LEFT">
+    </Rectangle>
+    <fx:define>
+        <ContextMenu fx:id="fxMenu">
+            <items>
+                <MenuItem onAction="#fxEydaVidburdi" text="Eyda"/>
+            </items>
+        </ContextMenu>
+    </fx:define>
+</fx:root>
