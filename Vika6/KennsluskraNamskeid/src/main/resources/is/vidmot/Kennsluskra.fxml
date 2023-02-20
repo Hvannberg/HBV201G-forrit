@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="262.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.vidmot.KennsluskraController">
+   <children>
+      <ScrollPane layoutY="40.0" prefHeight="159.0" prefWidth="281.0">
+         <content>
+            <ListView fx:id="listiNamskeid" prefHeight="159.0" prefWidth="285.0" />
+         </content>
+      </ScrollPane>
+      <ToolBar prefHeight="40.0" prefWidth="281.0">
+        <items>
+          <Button mnemonicParsing="false" onAction="#skodaNamskeidHandler" prefHeight="25.0" prefWidth="138.0" text="Skoða námskeið" />
+            <Button mnemonicParsing="false" onAction="#eydaNamskeidiHandler" prefHeight="25.0" prefWidth="121.0" text="Eyða námskeiði" />
+        </items>
+      </ToolBar>
+   </children>
+</AnchorPane>
