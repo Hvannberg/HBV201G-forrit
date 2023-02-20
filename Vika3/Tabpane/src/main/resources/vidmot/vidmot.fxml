@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.Controller">
+  <tabs>
+    <Tab style="-fx-background: Yellow;" text="Gulur">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: yellow;">
+               <children>
+                  <Button layoutY="73.0" mnemonicParsing="false" text="Gulur í AnchorPane" />
+               </children>
+            </AnchorPane>
+      </content>
+    </Tab>
+    <Tab style="-fx-background-color: red;" text="Rauður">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: REd;">
+               <children>
+                  <Button layoutX="58.0" layoutY="1.0" mnemonicParsing="false" text="Rauður " />
+               </children>
+            </AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

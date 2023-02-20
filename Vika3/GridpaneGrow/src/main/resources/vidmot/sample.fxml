@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="10" prefHeight="70.0" prefWidth="183.0" vgap="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button mnemonicParsing="false" text="Hnappur 1 0" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+      <Button layoutX="10.0" layoutY="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="92.0" text="Hnappur 0 0 " GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" />
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="92.0" text="Hnappur 0 1" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" text="Hnappur 1 1" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+   </children>
+</GridPane>

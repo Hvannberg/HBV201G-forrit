@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="CENTER" fillHeight="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="101.0" prefWidth="301.0" spacing="5.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button mnemonicParsing="false" prefHeight="67.0" prefWidth="85.0" text="H1" />
+      <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="85.0" text="H2" />
+      <Button layoutX="62.0" layoutY="10.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="85.0" text="H3" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</HBox>

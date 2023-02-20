@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="128.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button mnemonicParsing="false" text="Hnappur 1" />
+      <Button mnemonicParsing="false" text="Hnappur 2" />
+      <Button mnemonicParsing="false" text="Hnappur 3" />
+      <Button mnemonicParsing="false" text="Hnappur 4" />
+      <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="Hnappur 5" />
+   </children>
+</FlowPane>
