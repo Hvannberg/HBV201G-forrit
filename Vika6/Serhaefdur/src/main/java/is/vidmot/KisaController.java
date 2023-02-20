@@ -18,7 +18,7 @@ public class KisaController {
     @FXML
     private HBox fxKisur;
 
-    private final Image[] myndir = new Image[4];
+    private final Image[] myndir = new Image[3];
 
 
     /**
