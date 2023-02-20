@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e730c52a-1b10-4162-9e4c-a70abdb0e601" name="Changes" comment="" />
+    <list default="true" id="e730c52a-1b10-4162-9e4c-a70abdb0e601" name="Changes" comment="Fyrsta útgáfa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valmyndir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Valmyndir/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/HBV201G-2023/Valmyndir"
+    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/HBV201G-2023/ContextMenu"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -44,6 +47,18 @@
       <option name="presentableId" value="Default" />
       <updated>1676909693011</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fyrsta útgáfa">
+      <created>1676910270480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676910270480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fyrsta útgáfa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fyrsta útgáfa" />
   </component>
 </project>
