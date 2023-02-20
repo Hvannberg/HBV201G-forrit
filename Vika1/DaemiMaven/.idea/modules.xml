@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Vika1.iml" filepath="$PROJECT_DIR$/.idea/Vika1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DaemiMaven.iml" filepath="$PROJECT_DIR$/DaemiMaven.iml" />
     </modules>
   </component>
 </project>

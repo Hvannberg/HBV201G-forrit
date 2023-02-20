@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Ebba Þóra Hvannberg
+Dæmi um Maven skrá til að byggja javafx forrit
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+<!--
+    Auðkenni verkefnisins, nafn og útgáfa - hér ekki endanleg útgáfa (snapshot)
+-->
+    <groupId>hi.verkefni</groupId>
+    <artifactId>DaemiMaven</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>DaemiMaven</name>
+
+    <!--
+    Fastar sem eru notaðir í restinni af skránni
+    -->
+
+    <properties>
+        <!--
+          UTF-8 encoding, útgáfa af testing pakkanum, java þýðandanum, javafx
+          þýðandanum og maven plugin
+        -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <junit.version>5.8.2</junit.version>
+         <maven.compiler.release>17</maven.compiler.release>
+        <maven.plugin.version>3.8.1</maven.plugin.version>
+        <javafx.version>17.0.1</javafx.version>
+            <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
+        </properties>
+    <!--
+    kafli sem inniheldur hvaða módúla/library á að taka með, hér javafx-base,
+    javafx-controls, javafx-fxml og javafx-graphics. Þeir verða hlaðnir niður
+    sjálfvirkt úr Maven repository og niður í notandanafn / .m2 möppuna ef þeir eru
+    þar ekki fyrir
+    -->
+
+    <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-base</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+<!-- módúlar fyrir testing notað í seinni námskeiðum  -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+<!--
+  Kafli sem segir hvernig eigi að byggja. Plugin tilgreind, t.d. compiler, javafx-
+  compiler, java-doc plugin til að framleiða javadoc
+-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.plugin.version}</version>
+                <configuration>
+                    <release>${maven.compiler.release}</release>
+                </configuration>
+            </plugin>
+            <!--
+             Keyrslurnar tilgreindar
+            -->
+
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>${javafx.maven.plugin.version}</version>
+                   <executions>
+                    <execution>
+                        <!-- Default configuration for running with: mvn clean javafx:run -->
+                        <id>default-cli</id>
+                        <configuration>
+                            <launcher>halloMaven</launcher>
+                            <mainClass>hi.verkefni.daemimaven/hi.verkefni.daemimaven.HelloApplication</mainClass>
+                     <!--
+                     jLink - til að búa til uppsetningu sem hægt er að senda öðrum
+                     -->
+                            <jlinkImageName>halloMaven</jlinkImageName>
+                            <jlinkZipName>halloMaven</jlinkZipName>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Add configuration for the JavaDoc plugin, so that JavaDoc is automatically generated upon packaging -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.3.2</version>
+                <!-- configure how to execute this plugin -->
+                <executions>
+                    <execution>
+                        <!--
+                            connect the execution of the plugin to the Maven lifecycle phase "package"
+                            so that JavaDoc is generated every time you run "mvn package"
+                        -->
+                        <phase>package</phase>
+                        <id>attach-javadocs</id>
+                        <!--
+                            Hjá mér var nauðsynlegt að stilla
+                            JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 í Environment variables
+                            ekki til fyrirmyndar en eina sem virkaði
+
+                            set which of the goals in the plugin to execute. The JavaDoc plugin
+                            has a total of 16 goals to choose from. See: https://maven.apache.org/plugins/maven-javadoc-plugin/
+                            The most common once beeing either "javadoc" or "jar"
+                        -->
+                        <goals>
+                            <goal>javadoc</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!-- generate javadoc only for public classes and members -->
+                    <show>public</show>
+                    <!-- Omits the HELP link in the navigation bars at the top and bottom of each page of output. -->
+                    <nohelp>true</nohelp>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
