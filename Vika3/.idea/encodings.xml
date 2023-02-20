@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/BorderPaneLayout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BorderPaneLayout/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CSSdaemi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CSSdaemi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DaemiBakgrunnur/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DaemiBakgrunnur/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FlowPaneLayout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FlowPaneLayout/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GridpaneGrow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GridpaneGrow/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HBox og VBox/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HBox og VBox/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HBox/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HBox/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SamaBreidd/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SamaBreidd/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Scrollpane/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Scrollpane/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Stackpane/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Stackpane/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tabpane/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tabpane/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

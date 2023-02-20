@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BorderPaneLayout/BorderPaneLayout.iml" filepath="$PROJECT_DIR$/BorderPaneLayout/BorderPaneLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlowPaneLayout/FlowPaneLayout.iml" filepath="$PROJECT_DIR$/FlowPaneLayout/FlowPaneLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GridpaneGrow/GridpaneGrow.iml" filepath="$PROJECT_DIR$/GridpaneGrow/GridpaneGrow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HBox og VBox/HBoxVBox.iml" filepath="$PROJECT_DIR$/HBox og VBox/HBoxVBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HBox/Hbox.iml" filepath="$PROJECT_DIR$/HBox/Hbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SamaBreidd/SamaBreidd.iml" filepath="$PROJECT_DIR$/SamaBreidd/SamaBreidd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scrollpane/Scrollpane.iml" filepath="$PROJECT_DIR$/Scrollpane/Scrollpane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stackpane/Stackpane.iml" filepath="$PROJECT_DIR$/Stackpane/Stackpane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tabpane/Tabpane.iml" filepath="$PROJECT_DIR$/Tabpane/Tabpane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Vika3.iml" filepath="$PROJECT_DIR$/.idea/Vika3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSSdaemi/vidmot.iml" filepath="$PROJECT_DIR$/CSSdaemi/vidmot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DaemiBakgrunnur/vidmot (1).iml" filepath="$PROJECT_DIR$/DaemiBakgrunnur/vidmot (1).iml" />
+    </modules>
+  </component>
+</project>
