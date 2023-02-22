@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Vika1/DaemiMaven/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika1/DaemiModules/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika1/HalloHeimur/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika1/kafli1/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika2/Heilsa/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika2/HeilsaVinnsla/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/BorderPaneLayout/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/CSSdaemi/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/DaemiBakgrunnur/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/FlowPaneLayout/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/GridpaneGrow/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/HBox og VBox/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/HBox/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/SamaBreidd/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/Scrollpane/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/Stackpane/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika3/Tabpane/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika4/AlertDialog/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika4/CloseHandlerSynidaemi/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika4/DialogDemo/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika4/DialogResultConverter/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika4/MargarScene/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika4/MultipleViews/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika4/SkiptaMilliScene/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika4/TextDialog/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika5/AlertDialog/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika5/CloseHandlerSynidaemi/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika5/DialogDemo/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika5/DialogResultConverter/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika5/MargarScene/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika5/MultipleViews/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika5/SkiptaMilliScene/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika5/TextDialog/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika6/KennsluskraNamskeid/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika6/Serhaefdur/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika6/TableDemo-3/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika7/ContextMenu/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vika7/Valmyndir/src/main/java" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
