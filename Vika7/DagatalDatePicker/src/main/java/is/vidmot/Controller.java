@@ -58,7 +58,6 @@ public class Controller  {
      * @param actionEvent ónotað
      */
     public void veljaDagsetningu(ActionEvent actionEvent) {
-        System.out.println("dagsetning valin " + fxDagatal.getValue());
         fxSnidinnDagur.setText(fxDagatal.getValue().format(f));
     }
 }

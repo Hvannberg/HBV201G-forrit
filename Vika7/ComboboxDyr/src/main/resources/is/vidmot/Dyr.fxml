@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="288.0" prefWidth="336.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1"
+            fx:controller="is.vidmot.DyrController">
+   <children>
+      <Label layoutX="53.0" layoutY="92.0" prefHeight="150.0" prefWidth="164.0">
+         <graphic>
+            <ImageView fx:id="dyramynd" fitHeight="150.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Label>
+      <ComboBox fx:id="dyr" layoutX="52.0" layoutY="50.0" onAction="#jDyrActionPerformed" prefHeight="25.0" prefWidth="164.0" promptText="Veldu dýr" />
+   </children>
+</AnchorPane>
