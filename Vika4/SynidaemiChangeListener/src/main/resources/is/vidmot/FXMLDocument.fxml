@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="319.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="is.vidmot.FXMLDocumentController">
+    <children>
+        <Button  layoutX="29.0" layoutY="78.0" onAction="#yttuHandler" text="Ýttu" />
+        <Label fx:id="efri" alignment="CENTER" layoutX="184.0" layoutY="24.0" minHeight="16" minWidth="69" prefHeight="54.0" prefWidth="102.0" style="-fx-border-color: black;" text="5" />
+      <Label fx:id="nedri" alignment="CENTER" layoutX="184.0" layoutY="89.0" minHeight="16" minWidth="69" prefHeight="54.0" prefWidth="102.0" style="-fx-border-color: black;" text="0" />
+      <Label fx:id="summa" alignment="CENTER" layoutX="184.0" layoutY="172.0" minHeight="16" minWidth="69" prefHeight="54.0" prefWidth="102.0" style="-fx-border-color: black;" />
+    </children>
+</AnchorPane>

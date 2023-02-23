@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="349.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.vidmot.FXMLDocumentController">
+    <children>
+      <VBox prefHeight="200.0" prefWidth="305.0">
+         <children>
+             <Label fx:id="fxTala" alignment="CENTER" minHeight="16.0" minWidth="69.0" prefHeight="49.0" prefWidth="312.0" style="-fx-border-color: BLACK;" text="11" />
+            <TextField fx:id="inntak" alignment="CENTER" onAction="#handleNyTala" promptText="Settu inn tölu" text="0" />
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>

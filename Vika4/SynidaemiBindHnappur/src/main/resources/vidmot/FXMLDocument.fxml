@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="349.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.FXMLDocumentController">
+    <children>
+      <Button fx:id="kastaHnappur" onAction="#kastaHandler" layoutX="41.0" layoutY="243.0" mnemonicParsing="false"  prefHeight="45.0" prefWidth="196.0" text="Kasta" />
+      <Label fx:id="fjoldiKasta" alignment="CENTER" layoutX="41.0" layoutY="296.0" prefHeight="45.0" prefWidth="196.0" style="-fx-border-color: black;" text="3" />
+      <Button fx:id="nyUmferd" disable="true" layoutX="270.0" layoutY="243.0" mnemonicParsing="false" onAction="#nyUmferdHandler" prefHeight="45.0" prefWidth="196.0" text="Ný umferð" />
+    </children>
+</AnchorPane>
