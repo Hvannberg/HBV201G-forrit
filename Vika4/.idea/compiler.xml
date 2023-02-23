@@ -7,13 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="vidmot" />
-        <module name="vidmot (2)" />
-        <module name="vidmot (1)" />
-        <module name="MultipleViews" />
-        <module name="DialogDemo" />
-        <module name="vidmot (5)" />
-        <module name="vidmot (4)" />
-        <module name="vidmot (3)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
