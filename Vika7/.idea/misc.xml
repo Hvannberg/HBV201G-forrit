@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/Valmyndir/pom.xml" />
         <option value="$PROJECT_DIR$/ContextMenu/pom.xml" />
+        <option value="$PROJECT_DIR$/ComboboxDyr/pom.xml" />
+        <option value="$PROJECT_DIR$/DagatalDatePicker/pom.xml" />
       </list>
     </option>
   </component>

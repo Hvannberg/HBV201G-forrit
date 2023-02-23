@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vidmot (1)" />
         <module name="vidmot" />
+        <module name="vidmot (3)" />
+        <module name="vidmot (2)" />
+        <module name="vidmot (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="vidmot" target="17" />
       <module name="vidmot (1)" target="17" />
+      <module name="vidmot (2)" target="17" />
+      <module name="vidmot (3)" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Vika7.iml" filepath="$PROJECT_DIR$/.idea/Vika7.iml" />
       <module fileurl="file://$PROJECT_DIR$/Valmyndir/vidmot.iml" filepath="$PROJECT_DIR$/Valmyndir/vidmot.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContextMenu/vidmot (1).iml" filepath="$PROJECT_DIR$/ContextMenu/vidmot (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComboboxDyr/vidmot (2).iml" filepath="$PROJECT_DIR$/ComboboxDyr/vidmot (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/DagatalDatePicker/vidmot (3).iml" filepath="$PROJECT_DIR$/DagatalDatePicker/vidmot (3).iml" />
     </modules>
   </component>
 </project>

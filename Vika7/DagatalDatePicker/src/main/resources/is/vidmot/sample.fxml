@@ -5,7 +5,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.vidmot.Controller">
    <children>
-      <DatePicker fx:id="fxDagatal" layoutX="84.0" layoutY="115.0" onAction="#veljaDagsetningu" />
+      <DatePicker  fx:id="fxDagatal" layoutX="84.0" layoutY="115.0" onAction="#veljaDagsetningu" />
       <Label fx:id="fxSnidinnDagur" layoutX="310.0" layoutY="115.0" prefHeight="25.0" prefWidth="252.0" text="Dagur" />
       <Label layoutX="84.0" layoutY="175.0" prefHeight="25.0" prefWidth="174.0" text="Dagur með binding" />
       <Label fx:id="fxDagurSjalfvirkt" layoutX="310.0" layoutY="171.0" prefHeight="25.0" prefWidth="252.0" text="Label" />

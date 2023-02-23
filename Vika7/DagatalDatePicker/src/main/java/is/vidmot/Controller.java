@@ -58,6 +58,7 @@ public class Controller  {
      * @param actionEvent ónotað
      */
     public void veljaDagsetningu(ActionEvent actionEvent) {
-        fxSnidinnDagur.setText(fxDagatal.getValue().format(f));
+
+         fxSnidinnDagur.setText(fxDagatal.getValue().format(f));
     }
 }

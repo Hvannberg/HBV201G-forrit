@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e730c52a-1b10-4162-9e4c-a70abdb0e601" name="Changes" comment="Fyrsta útgáfa">
-      <change afterPath="$PROJECT_DIR$/Vika7/ComboboxDyr/src/main/java/is/vidmot/ComboMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vika7/ComboboxDyr/src/main/java/is/vidmot/DyrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vika7/ComboboxDyr/src/main/resources/is/vidmot/Dyr.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vika7/ComboboxDyr/src/main/resources/is/vidmot/myndir/Bird.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vika7/ComboboxDyr/src/main/resources/is/vidmot/myndir/Cat.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vika7/ComboboxDyr/src/main/resources/is/vidmot/myndir/Dog.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vika7/ComboboxDyr/src/main/resources/is/vidmot/myndir/Pig.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vika7/ComboboxDyr/src/main/resources/is/vidmot/myndir/Rabbit.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vika7/DagatalDatePicker/src/main/java/is/vidmot/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/DagatalDatePicker/src/main/java/is/vidmot/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika7/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika7/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
