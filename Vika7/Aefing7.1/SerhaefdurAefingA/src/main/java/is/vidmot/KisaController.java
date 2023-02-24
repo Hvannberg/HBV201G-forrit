@@ -17,7 +17,8 @@ public class KisaController {
     @FXML
     private HBox fxKisur;
 
-    private final Image[] myndir = new Image[3];
+ //   A. Bættu við einhverri mynd t.d. af dýri og skírðu hana kisa4.jpg - Breyttu forritinu þannig að það geri ráð fyrir fjórðu mögulegu myndinni í eina af þremur ImageView hlutunum.Keyrðu forritið, taktu skjáskot þannig að myndin sjáist.
+    private final Image[] myndir = new Image[4];
 
 
     /**
@@ -52,8 +53,9 @@ public class KisaController {
     @FXML
     public void nyKisaHandler(ActionEvent actionEvent) {
             // setja kisumynd af handahófi á DyrSpjald "ramma" af handahófi
+        // A. Bættu við einhverri mynd t.d. af dýri og skírðu hana kisa4.jpg - Breyttu forritinu þannig að það geri ráð fyrir fjórðu mögulegu myndinni í eina af þremur ImageView hlutunum.Keyrðu forritið, taktu skjáskot þannig að myndin sjáist.
             int i = (int) (Math.random() * 3);
-            int j = (int) (Math.random() * 3);
+            int j = (int) (Math.random() * 4);
             ((DyrSpjald) fxKisur.getChildren().get(i)).setDyrMynd(myndir[j]);
     }
 }
