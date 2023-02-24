@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/DialogDemoAefing/DialogDemoAefing/pom.xml" />
+        <option value="$PROJECT_DIR$/SerhaefdurAefing/SerhaefdurAefing/pom.xml" />
+        <option value="$PROJECT_DIR$/DialogDemoAefingA/pom.xml" />
+        <option value="$PROJECT_DIR$/DialogDemoAefingB/pom.xml" />
+        <option value="$PROJECT_DIR$/DialogDemoAefingC/pom.xml" />
+        <option value="$PROJECT_DIR$/DialogDemoAefingD/pom.xml" />
+        <option value="$PROJECT_DIR$/SerhaefdurAefingA/pom.xml" />
+        <option value="$PROJECT_DIR$/SerhaefdurAefingB/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK" />
+</project>
