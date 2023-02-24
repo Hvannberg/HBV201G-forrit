@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
@@ -39,5 +40,11 @@ public class DyrSpjald extends AnchorPane {
      */
     public void setDyrMynd(Image mynd) {
         fxDyr.setImage(mynd);
+    }
+
+
+    //Á hvaða klasa (og .fxml skráin) ætti handlerinn að vera ef þú ætlaðir að bæta þessari hegðun á alla DyrSpjald hluti?
+    public void fxMouseExited(MouseEvent mouseEvent) {
+        ((DyrSpjald)mouseEvent.getSource()).setStyle("-fx-border-color:GREEN");
     }
 }

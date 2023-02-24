@@ -12,7 +12,7 @@
     </padding>
       <Button onAction="#nyKisaHandler" text="Ný mynd" />
    <HBox fx:id="fxKisur" prefHeight="100.0" prefWidth="200.0">
-       <DyrSpjald />
+       <DyrSpjald onMouseEntered="#fxEnteredHandler"/>
        <DyrSpjald />
        <DyrSpjald />
      </HBox>

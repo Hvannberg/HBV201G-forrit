@@ -3,6 +3,7 @@ package is.vidmot;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.image.Image;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 
 /******************************************************************************
@@ -55,5 +56,11 @@ public class KisaController {
             int i = (int) (Math.random() * 3);
             int j = (int) (Math.random() * 3);
             ((DyrSpjald) fxKisur.getChildren().get(i)).setDyrMynd(myndir[j]);
+    }
+
+   // Settu handler (kallaðu hann fxEnteredHandler)  á fyrsta DyrSpjald hlutinn í kisur-view.fxml sem bregst við onMouseEntered atburði. Í handlernum skaltu bregðast við að eigin vali, t.d. setja rauðann ramma (-fx-border-color:RED) utan um DyrSpjald (þ.e. AnchorPane hlutinn )  Í hvaða klasa á handlerinn að vera? Keyrðu forritið og taktu skjáskot.
+   //  Á hvaða klasa (og .fxml skráin) ætti handlerinn að vera ef þú ætlaðir að bæta þessari hegðun á alla DyrSpjald hluti?
+    public void fxEnteredHandler(MouseEvent mouseEvent) {
+        ((DyrSpjald)mouseEvent.getSource()).setStyle("-fx-border-color:RED");
     }
 }
