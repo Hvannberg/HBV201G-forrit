@@ -44,8 +44,6 @@ public class TeiknaController  {
 
         // Setjum handler á ferningshlutinn þannig að við framkvæmum
         // setningar þegar við drögum músina
-
-        // Sambærilegt en lambda fall
         r.setOnMouseDragged(event->{  r.setX(event.getX());
             r.setY(event.getY());});
 

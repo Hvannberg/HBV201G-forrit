@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.shape.*?>
 <?import javafx.scene.canvas.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
 
-<Pane fx:id="gluggi" prefHeight="332.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.teikning.vidmot.TeiknaController">
+<Pane fx:id="gluggi" prefHeight="332.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.teikning.vidmot.TeiknaController">
    <children>
       <Canvas fx:id="mittCanvas" height="254.0" layoutX="271.0" layoutY="39.0" width="152.0" />
+      <Rectangle height="43.0" layoutX="107.0" layoutY="166.0" width="50.0" />
    </children>
 </Pane>
