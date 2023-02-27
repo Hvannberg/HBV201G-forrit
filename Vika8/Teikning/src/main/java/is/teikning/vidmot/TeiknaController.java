@@ -6,11 +6,13 @@ import java.util.ResourceBundle;
 
 import javafx.beans.InvalidationListener;
 import javafx.beans.binding.ObjectBinding;
+import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableBooleanValue;
 import javafx.beans.value.ObservableObjectValue;
+import javafx.beans.value.ObservableValue;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -60,6 +62,13 @@ public class TeiknaController {
         r.setOnMouseDragged(event -> {
             r.setX(event.getX());
             r.setY(event.getY());
+        });
+
+        // Breytum litnum á fxSvartur þegar fxSvartur og r skarast - hlustum á x gildið
+        r.xProperty().addListener((observableValue, oldValue, newValue) -> {
+               fxSvartur.setFill(r.getBoundsInParent().intersects(fxSvartur.getBoundsInParent())? Color.MAGENTA:
+                    Color.BLACK);
+
         });
     }
 

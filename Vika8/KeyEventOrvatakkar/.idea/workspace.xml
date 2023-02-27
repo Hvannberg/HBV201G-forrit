@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a0bc86c-07dc-46bb-8c2e-aa0bfa328ced" name="Changes" comment="Fyrsta útgáfa">
-      <change afterPath="$PROJECT_DIR$/src/main/java/is/keyeventorvatakkar/vidmot/Stefna.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/keyeventorvatakkar/vidmot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/keyeventorvatakkar/vidmot/Main.java" afterDir="false" />
+    <list default="true" id="7a0bc86c-07dc-46bb-8c2e-aa0bfa328ced" name="Changes" comment="Bætt við Stefna">
       <change beforePath="$PROJECT_DIR$/../Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Teikning/src/main/resources/is/teikning/vidmot/FXMLDocument.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Teikning/src/main/resources/is/teikning/vidmot/FXMLDocument.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +40,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/Vika8/Forrit&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/HBV201G-2023/Vika8/Teikning"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ebba\OneDrive - Háskóli Íslands\Viðmótsforritun 2023\HBV201G-2023\Vika8\KeyEventOrvatakkar\src\main\java\is\keyeventorvatakkar\vidmot" />
@@ -70,11 +66,27 @@
       <option name="presentableId" value="Default" />
       <updated>1677435678239</updated>
     </task>
+    <task id="LOCAL-00001" summary="Bætt við Stefna">
+      <created>1677487959596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677487959596</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Bætt við Stefna">
+      <created>1677488067440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677488067440</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fyrsta útgáfa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fyrsta útgáfa" />
+    <MESSAGE value="Bætt við Stefna" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bætt við Stefna" />
   </component>
 </project>
