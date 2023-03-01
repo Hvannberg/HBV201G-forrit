@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b2805e1-0eb6-4967-8a87-ae3cfa857532" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/is/hreyfimyndir/vidmot/HreyfiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/is/hreyfimyndir/vidmot/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/is/hreyfimyndir/vidmot/Hreyfimynd.fxml" afterDir="false" />
+    <list default="true" id="2b2805e1-0eb6-4967-8a87-ae3cfa857532" name="Changes" comment="Fyrsta útgáfa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is/hreyfimyndir/vidmot/HreyfiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hreyfimyndir/vidmot/HreyfiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/is/hreyfimyndir/vidmot/Hreyfimynd.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/is/hreyfimyndir/vidmot/Hreyfimynd.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextiRotate/src/main/resources/is/textirotate/vidmot/Text-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TextiRotate/src/main/resources/is/textirotate/vidmot/Text-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/HBV201G-2023/Vika8/Hreyfimyndir/src/main/java/is/hreyfimyndir"
+    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/Vika8/Forrit"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -127,9 +117,37 @@
       <option name="presentableId" value="Default" />
       <updated>1677684512115</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fyrsta útgáfa">
+      <created>1677705213660</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677705213660</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fyrsta útgáfa">
+      <created>1677705262562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677705262562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fyrsta útgáfa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fyrsta útgáfa" />
   </component>
 </project>

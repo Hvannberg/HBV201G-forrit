@@ -23,20 +23,17 @@ import java.net.URL;
 import java.util.Random;
 import java.util.ResourceBundle;
 
-public class HreyfiController implements Initializable {
+public class HreyfiController {
     // fastar
-    public Rectangle fxRectangle;
-    public Text fxText;
-    public Pane fxPane;
+    @FXML
+    private Rectangle fxRectangle; // rétthyrningur sem hreyfist
+    @FXML
+    private Pane fxPane;
     @FXML
     private Button fxHnappur;   // Hnappur sem hreyfist
-
     private final Random rand = new Random();   // Random generator
 
-    private Text text;
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-
+    public void initialize() {
         stillaTimeline();                               // setur upp hreyfilykkjuna
     }
 
@@ -58,7 +55,6 @@ public class HreyfiController implements Initializable {
     private void leikjaSkref() {
         // rétthyrningur færist - færslurnar geymast
        fxRectangle.getTransforms().add(new Translate(5,5));
-        System.out.println (fxRectangle.getTransforms());
         // hnappurinn er færður til um random gildi
         fxHnappur.relocate(rand.nextInt((int)(fxPane.getWidth()-fxHnappur.getWidth())),
                 rand.nextInt((int)(fxPane.getHeight()-fxHnappur.getHeight())));
