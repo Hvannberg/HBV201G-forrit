@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+<Pane  xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.2"
+      fx:controller="is.textirotate.vidmot.TextController">
+    <Circle layoutX="75" layoutY="100" radius="4"/>
+    <Text fx:id="fxTexti" x="15" y="100" text="Hali-haus"/>
+</Pane>
