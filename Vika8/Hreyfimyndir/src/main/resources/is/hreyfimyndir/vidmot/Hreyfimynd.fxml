@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.shape.Rectangle?>
-<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
 
-<Pane fx:id="fxPane" prefHeight="173.0" prefWidth="249.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hreyfimyndir.vidmot.HreyfiController">
-    <children>
+<Pane fx:id="fxPane" prefHeight="173.0" prefWidth="249.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hreyfimyndir.vidmot.HreyfiController">
         <Button fx:id="fxHnappur" mnemonicParsing="false" text="Hnappur hreyfist" />
         <Rectangle fx:id="fxRectangle" fill="Red" height="10" layoutX="50" layoutY="50" width="50" />
-        <Text fx:id="fxText" layoutX="20.0" layoutY="50.0" text="This is a test" wrappingWidth="75.9739990234375" />
-    </children>
 </Pane>

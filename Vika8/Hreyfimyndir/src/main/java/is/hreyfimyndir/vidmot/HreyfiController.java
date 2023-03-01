@@ -5,6 +5,7 @@
  */
 package is.hreyfimyndir.vidmot;
 import javafx.animation.KeyFrame;
+import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -16,6 +17,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.transform.Rotate;
+import javafx.scene.transform.Scale;
 import javafx.scene.transform.Translate;
 import javafx.util.Duration;
 
@@ -23,20 +25,17 @@ import java.net.URL;
 import java.util.Random;
 import java.util.ResourceBundle;
 
-public class HreyfiController implements Initializable {
+public class HreyfiController {
     // fastar
-    public Rectangle fxRectangle;
-    public Text fxText;
-    public Pane fxPane;
+    @FXML
+    private Rectangle fxRectangle; // rétthyrningur sem hreyfist
+    @FXML
+    private Pane fxPane;
     @FXML
     private Button fxHnappur;   // Hnappur sem hreyfist
-
     private final Random rand = new Random();   // Random generator
 
-    private Text text;
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-
+    public void initialize() {
         stillaTimeline();                               // setur upp hreyfilykkjuna
     }
 
@@ -49,8 +48,10 @@ public class HreyfiController implements Initializable {
                        // hvers tímabils
 
                     leikjaSkref();
-                });
-        Timeline t = new Timeline(k);           // tengjum timeline og tímabilið
+                    // viðmótshluturinn færist einnig 25 pixla til hægri á tímabilinu
+                }, new KeyValue(fxRectangle.translateXProperty(),25));
+
+        Timeline t = new Timeline(k);           // tengjum timeline og keyframe
         t.setCycleCount(Timeline.INDEFINITE);   // hve lengi tímalínan keyrist
         t.play();                               // setja tímalínuna af stað
     }
@@ -58,7 +59,7 @@ public class HreyfiController implements Initializable {
     private void leikjaSkref() {
         // rétthyrningur færist - færslurnar geymast
        fxRectangle.getTransforms().add(new Translate(5,5));
-        System.out.println (fxRectangle.getTransforms());
+     //   fxRectangle.getTransforms().add(new Scale(1.5,1.5));
         // hnappurinn er færður til um random gildi
         fxHnappur.relocate(rand.nextInt((int)(fxPane.getWidth()-fxHnappur.getWidth())),
                 rand.nextInt((int)(fxPane.getHeight()-fxHnappur.getHeight())));
