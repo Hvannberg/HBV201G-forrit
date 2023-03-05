@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44b58075-acc3-4265-a0fe-2b545ae78732" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/car.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/src/main/java/is/json/vidmot/LesaSkrifaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/src/main/java/is/json/vidmot/LesaSkrifaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/src/main/java/is/json/vinnsla/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/src/main/resources/is/json/vidmot/lesaSkrifa-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/is/web/DOMModelDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/is/web/JS2JavaBridgeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/is/web/LoadWorkerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/is/web/WebEngineDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/is/web/WebOverlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/is/web/WebViewDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/Hreyfimyndir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/Hreyfimyndir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/TextiRotate/src/main/java/is/textirotate/vidmot/TextController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/TextiRotate/src/main/java/is/textirotate/vidmot/TextController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Mc1gOwHvAJObQ1EFP0RadPIOY3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/HBV201G-2023/Vika9/Vefurinn/src/main/java/is/vefurinn"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ebba\OneDrive - Háskóli Íslands\Viðmótsforritun 2023\HBV201G-2023\Vika9\Vefurinn\src\main\java\is\vefurinn" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44b58075-acc3-4265-a0fe-2b545ae78732" name="Changes" comment="" />
+      <created>1678052170188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678052170188</updated>
+    </task>
+    <servers />
+  </component>
+</project>
