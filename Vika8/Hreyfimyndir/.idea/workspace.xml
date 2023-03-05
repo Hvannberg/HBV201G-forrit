@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b2805e1-0eb6-4967-8a87-ae3cfa857532" name="Changes" comment="Fyrsta útgáfa">
+    <list default="true" id="2b2805e1-0eb6-4967-8a87-ae3cfa857532" name="Changes" comment="Með KeyValue">
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/src/main/java/chapter5/basics/BasicAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/src/main/java/chapter5/basics/CombinedAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/src/main/java/chapter5/basics/HandlerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/src/main/java/chapter5/basics/InterpolatorsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/src/main/java/chapter5/transitions/ColorTransitionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/src/main/java/chapter5/transitions/PathTransitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/src/main/java/chapter5/transitions/RotateTransitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/src/main/java/chapter5/transitions/SequentialTransitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/src/main/java/chapter5/transitions/TranslateTransitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MasteringChapter05/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hreyfimyndir/vidmot/HreyfiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hreyfimyndir/vidmot/HreyfiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextiRotate/src/main/java/is/textirotate/vidmot/TextController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TextiRotate/src/main/java/is/textirotate/vidmot/TextController.java" afterDir="false" />
     </list>
@@ -16,7 +34,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
