@@ -8,29 +8,29 @@
       <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/src/main/java/is/media/AudioClipDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/src/main/java/is/media/MediaAudioDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/src/main/java/is/media/MediaVideoDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/src/main/java/is/media/MediaVideoEffectsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/src/main/resources/is/media/sample-15s.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Media/src/main/resources/is/media/sample-5s.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vefurinn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/.idea/resourceBundles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/src/main/java/is/international/vidmot/AlthjodaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/src/main/java/is/international/vidmot/AlthjodaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/src/main/resources/is/international/vidmot/Synidaemi.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/src/main/resources/is/international/vidmot/texti_DK.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/src/main/resources/is/international/vidmot/texti_en_GB.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../International/src/main/resources/is/international/vidmot/texti_is.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Vika8/Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Vika8/TextiRotate/src/main/java/is/textirotate/vidmot/TextController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/TextiRotate/src/main/java/is/textirotate/vidmot/TextController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vefurinn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vefurinn/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
