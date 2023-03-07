@@ -5,50 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5457923a-ee00-4fd0-b8ba-fae3d5bfd8b5" name="Changes" comment="Fyrsta útgáfa">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/car.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/src/main/java/is/json/vidmot/LesaSkrifaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/src/main/java/is/json/vidmot/LesaSkrifaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/src/main/java/is/json/vinnsla/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/src/main/resources/is/json/vidmot/lesaSkrifa-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/src/main/java/is/web/DOMModelDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/src/main/java/is/web/JS2JavaBridgeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/src/main/java/is/web/LoadWorkerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/src/main/java/is/web/WebEngineDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/src/main/java/is/web/WebOverlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/src/main/java/is/web/WebViewDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hreyfimyndir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hreyfimyndir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chapter5/transitions/ColorTransitionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter5/transitions/ColorTransitionsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextiRotate/src/main/java/is/textirotate/vidmot/TextController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TextiRotate/src/main/java/is/textirotate/vidmot/TextController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika9/JSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika9/JSON/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ebba/Downloads/Sturla4/BounceBall"
+    "last_opened_file_path": "C:/Users/ebba/Downloads/Emil/Bouncedown"
   }
 }]]></component>
   <component name="RecentsManager">

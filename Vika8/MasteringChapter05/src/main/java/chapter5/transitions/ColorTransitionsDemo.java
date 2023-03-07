@@ -30,7 +30,7 @@ public class ColorTransitionsDemo extends Application {
         // FillTransition klasinn er í Animation pakkanum. Hann erfir frá Transition klasanum sem aftur erfir frá Animation
         // Aðrir áhugaverðir Transition klasar eru t.d. FadeTransition (Dofna/Bjartara), PathTransition (færa sig eftir slóð), ScaleTransition (stækka/minnka)
         // Lengdin á breytingunni, hluturinn (circle) sem transition er beitt á, fyllt frá fyrri litnum og yfir í seinni litinn
-        FillTransition ft = new FillTransition(Duration.seconds(3), circle, Color.RED, new Color(0, 0, 1, 0.5));
+        FillTransition ft = new FillTransition(Duration.seconds(10), circle, Color.RED, new Color(0, 0, 1, 0.5));
 
         // allt þetta venjulega
         Scene scene = new Scene(new Pane(circle), 300, 250);

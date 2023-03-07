@@ -6,9 +6,7 @@ import java.util.ResourceBundle;
 
 import javafx.beans.InvalidationListener;
 import javafx.beans.binding.ObjectBinding;
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.SimpleBooleanProperty;
-import javafx.beans.property.SimpleObjectProperty;
+import javafx.beans.property.*;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableBooleanValue;
 import javafx.beans.value.ObservableObjectValue;
@@ -41,6 +39,8 @@ public class TeiknaController {
     @FXML
     private Pane gluggi;
 
+    DoubleProperty dp = new SimpleDoubleProperty();
+
     public void initialize() {
 
         // Hér er teiknaður rauður ferningur á canvas hlutinn
@@ -56,7 +56,8 @@ public class TeiknaController {
         r.setStroke(BLUE);
         // Bæta ferningnum við gluggi svo hann teiknist
         gluggi.getChildren().add(r);
-
+        fxSvartur.setLayoutX(r.getLayoutX() + 5);
+        fxSvartur.setLayoutY(r.getLayoutY() + 5);
         // Setjum handler á ferningshlutinn þannig að við framkvæmum
         // setningar þegar við drögum músina
         r.setOnMouseDragged(event -> {
@@ -66,10 +67,13 @@ public class TeiknaController {
 
         // Breytum litnum á fxSvartur þegar fxSvartur og r skarast - hlustum á x gildið
         r.xProperty().addListener((observableValue, oldValue, newValue) -> {
-               fxSvartur.setFill(r.getBoundsInParent().intersects(fxSvartur.getBoundsInParent())? Color.MAGENTA:
-                    Color.BLACK);
+            fxSvartur.setFill(r.getBoundsInParent().intersects(fxSvartur.getBoundsInParent()) ? Color.MAGENTA : Color.BLACK);
 
         });
     }
 
 }
+
+
+//      fxSvartur.xProperty().bindBidirectional(r.xProperty());
+//      fxSvartur.yProperty().bindBidirectional(r.yProperty());

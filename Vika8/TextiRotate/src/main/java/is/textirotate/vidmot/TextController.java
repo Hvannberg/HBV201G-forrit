@@ -33,12 +33,12 @@ public class TextController {
      * Setur upp hreyfilykkju til að hreyfa hnapp og rétthyrning
      */
     private void stillaTimeline() {
-        KeyFrame k = new KeyFrame(Duration.millis(1000),    // hvert tímabil er 1000 millisek.
+        KeyFrame k = new KeyFrame(Duration.millis(500),    // hvert tímabil er 1000 millisek.
                 e -> {  // lambda fall sem er kallað á þegar ActionEvent atburðurinn er fíraður í lok
                     // hvers tímabils
 
-                    // fxTexti.getTransforms().add(new Rotate(90, 75, 100)); // snúa á öxli
-                    fxTexti.setRotate(HORN * hornMargfeldi++); // snúa á miðju
+                     fxTexti.getTransforms().add(new Rotate(90, 75, 100)); // snúa á öxli
+                    // fxTexti.setRotate(HORN * hornMargfeldi++); // snúa á miðju
                 });
         Timeline t = new Timeline(k);           // tengjum timeline og tímabilið
         t.setCycleCount(Timeline.INDEFINITE);   // hve lengi tímalínan keyrist
