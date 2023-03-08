@@ -41,14 +41,10 @@ public class ClockSkinHands extends StackPane implements Skin<ClockControl> {
 
     public ClockSkinHands(ClockControl control) {
         this.control = control;
-
         FXML_Lestur.lesa (this, "hands-view.fxml");
         setMinSize(200, 200);
-
         hourHand.setTranslateX(hourHand.getBoundsInLocal().getWidth()/2);
-
         minuteHand.setTranslateX(minuteHand.getBoundsInLocal().getWidth() / 2);
-
         secondHand.setTranslateX(secondHand.getBoundsInLocal().getWidth() / 2);
 
         // binding hands to the model value
