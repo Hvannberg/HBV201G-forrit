@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<fx:root type="javafx.scene.layout.StackPane" xmlns="http://javafx.com/javafx/16"
+         xmlns:fx="http://javafx.com/fxml/1" >
+    <Text fx:id="txtTime" text="00:00:00" StackPane.alignment="CENTER">
+        <font>
+            <Font name="Courier New" size="20.0"  />
+        </font>
+    </Text>
+
+    <Rectangle width="120.0" height="50.0" stroke="BLACK" strokeWidth="1.0" fill="TRANSPARENT" />
+</fx:root>

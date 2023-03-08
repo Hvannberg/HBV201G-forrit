@@ -6,6 +6,7 @@ package skins;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import javafx.beans.binding.Bindings;
+import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Skin;
 import javafx.scene.layout.StackPane;
@@ -20,23 +21,21 @@ import javafx.scene.text.Text;
  *
  * @author sgrinev
  */
-public class ClockSkinText implements Skin<ClockControl> {
+public class ClockSkinText extends StackPane implements Skin<ClockControl> {
 
     private final ClockControl control;
-    private final StackPane root;
-    private final Text txtTime = new Text();
+    @FXML
+    private Text txtTime;
 
     // skin creation
     public ClockSkinText(ClockControl control) {
         this.control = control;
-        Rectangle border = new Rectangle(120, 50, Color.TRANSPARENT);
-        border.setStroke(Color.BLACK);
-        root = new StackPane(txtTime, border);
-        txtTime.setFont(FONT);
+        FXML_Lestur.lesa(this, "text-view.fxml");
+        //txtTime.setFont(FONT);
         // connecting text clock with our model value
         txtTime.textProperty().bind(
                 Bindings.createStringBinding(() -> {
-                    Date date = control.timeProp.get();
+                    Date date = control.timeProperty().get();
                     return date == null ? "" : FORMAT.format(date);
                 }, control.timeProp)
         );
@@ -51,7 +50,7 @@ public class ClockSkinText implements Skin<ClockControl> {
     // this Skin method returns root node of our skin
     @Override
     public Node getNode() {
-        return root;
+        return this;
     }
 
     // this method can be used to clean any used resources

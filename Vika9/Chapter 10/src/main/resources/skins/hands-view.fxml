@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.MoveTo?>
+<?import javafx.scene.shape.Path?>
+<?import javafx.scene.shape.LineTo?>
+<?import javafx.scene.transform.Rotate?>
+
+<?import javafx.scene.shape.ClosePath?>
+<fx:root type="javafx.scene.layout.StackPane"   xmlns="http://javafx.com/javafx/16"
+           xmlns:fx="http://javafx.com/fxml/1" >
+    <Path fx:id="minuteHand" fill="DARKGRAY">
+        <elements>
+            <MoveTo x="0.0" y="0.0"/>
+            <LineTo x="15.0" y="-5.0"/>
+            <LineTo x="100.0" y="0.0"/>
+            <LineTo x="15.0" y="5.0"/>
+            <ClosePath/>
+        </elements>
+        <transforms>
+            <Rotate fx:id="rotateMinuteHand" angle="1.0"/>
+        </transforms>
+    </Path>
+
+    <Line fx:id="secondHand" startX="0" startY="0" endX="90" endY="0">
+        <transforms>
+            <Rotate fx:id="rotateSecondHand" angle="1.0"/>
+        </transforms>
+    </Line>
+
+    <Path fx:id="hourHand" fill="RED">
+        <elements>
+            <MoveTo x="0.0" y="0.0"/>
+            <LineTo x="20.0" y="-8.0"/>
+            <LineTo x="60.0" y="0.0"/>
+            <LineTo x="20.0" y="8.0"/>
+            <ClosePath/>
+        </elements>
+        <transforms>
+            <Rotate fx:id="rotateHourHand" angle="1.0"/>
+        </transforms>
+    </Path>
+</fx:root>
+

@@ -3,6 +3,7 @@
  */
 package skins;
 
+import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Skin;
 import javafx.scene.layout.Pane;
@@ -21,45 +22,34 @@ import javafx.scene.transform.Rotate;
  * Býr til klukku með kls, mínútu og sek vísum
  * @author sgrinev
  */
-public class ClockSkinHands implements Skin<ClockControl> {
+public class ClockSkinHands extends StackPane implements Skin<ClockControl> {
 
     private final ClockControl control;
-    private final Pane root;
-    private final Rotate rotateSecondHand = new Rotate(0, 0, 0);
-    private final Rotate rotateMinuteHand = new Rotate(0, 0, 0);
-    private final Rotate rotateHourHand = new Rotate(0, 0, 0);
+    @FXML
+    private Rotate rotateSecondHand;
+    @FXML
+    private Rotate rotateMinuteHand;
+    @FXML
+    private Rotate rotateHourHand;
+
+    @FXML
+    private Path hourHand;
+    @FXML
+    private Path minuteHand;
+    @FXML
+    private Line secondHand;
 
     public ClockSkinHands(ClockControl control) {
         this.control = control;
-        // create minutes hand
-        Path minuteHand = new Path(
-                new MoveTo(0, 0),
-                new LineTo(15, -5),
-                new LineTo(100, 0),
-                new LineTo(15, 5),
-                new ClosePath());
-        minuteHand.setFill(Color.DARKGRAY);
-        minuteHand.getTransforms().add(rotateMinuteHand);
+
+        FXML_Lestur.lesa (this, "hands-view.fxml");
+        setMinSize(200, 200);
+
+        hourHand.setTranslateX(hourHand.getBoundsInLocal().getWidth()/2);
+
         minuteHand.setTranslateX(minuteHand.getBoundsInLocal().getWidth() / 2);
 
-        // create second hand
-        Line secondHand = new Line(0, 0, 90, 0);
-        secondHand.getTransforms().add(rotateSecondHand);
         secondHand.setTranslateX(secondHand.getBoundsInLocal().getWidth() / 2);
-
-        // create hour hand
-        Shape hourHand = new Path(
-                new MoveTo(0, 0),
-                new LineTo(20, -8),
-                new LineTo(60, 0),
-                new LineTo(20, 8),
-                new ClosePath());
-        hourHand.setFill(Color.LIGHTGRAY);
-        hourHand.getTransforms().add(rotateHourHand);
-        hourHand.setTranslateX(hourHand.getBoundsInLocal().getWidth() / 2);
-
-        root = new StackPane(minuteHand, hourHand, secondHand);
-        root.setMinSize(200, 200);
 
         // binding hands to the model value
         control.timeProperty().addListener((e, oldValue, newValue) -> {
@@ -78,7 +68,7 @@ public class ClockSkinHands implements Skin<ClockControl> {
 
     @Override
     public Node getNode() {
-        return root;
+        return this;
     }
 
     @Override
