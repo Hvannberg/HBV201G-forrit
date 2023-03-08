@@ -31,7 +31,7 @@ public class ClockSkinText extends StackPane implements Skin<ClockControl> {
     public ClockSkinText(ClockControl control) {
         this.control = control;
         FXML_Lestur.lesa(this, "text-view.fxml");
-        //txtTime.setFont(FONT);
+
         // connecting text clock with our model value
         txtTime.textProperty().bind(
                 Bindings.createStringBinding(() -> {
