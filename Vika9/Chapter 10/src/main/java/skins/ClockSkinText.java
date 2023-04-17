@@ -22,7 +22,6 @@ import javafx.scene.text.Text;
  * @author sgrinev
  */
 public class ClockSkinText extends StackPane implements Skin<ClockControl> {
-
     private final ClockControl control;
     @FXML
     private Text txtTime;

@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e730c52a-1b10-4162-9e4c-a70abdb0e601" name="Changes" comment="Fyrsta útgáfa">
+    <list default="true" id="e730c52a-1b10-4162-9e4c-a70abdb0e601" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/Vika9/ObservableJSON/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vika9/ObservableJSON/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vika9/ObservableJSON/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vika9/ObservableJSON/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vika7/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vika7/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vika7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vika7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vika7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika9/Chapter 10/src/main/java/skins/ClockSkinText.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/Chapter 10/src/main/java/skins/ClockSkinText.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +31,21 @@
     </option>
   </component>
   <component name="ProjectId" id="2M0g0jPHkxHzlwGa3FtKXCKz4ej" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/HBV201G-2023/Vika7",
+    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/HBV201G-Verkefni",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -77,11 +81,32 @@
       <option name="project" value="LOCAL" />
       <updated>1677076240307</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="FXML viðbætur">
+      <created>1680704705635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680704705635</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fyrsta útgáfa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fyrsta útgáfa" />
+    <MESSAGE value="FXML viðbætur" />
+    <MESSAGE value="ObservableJSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="ObservableJSON" />
   </component>
 </project>
