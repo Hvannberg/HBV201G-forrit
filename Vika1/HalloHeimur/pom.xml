@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.1</junit.version>
         <!-- útgáfa á javac þýðanda - gætið að það sé ekki hærra en JRE útgáfan -->
-        <maven.compiler.release>11</maven.compiler.release>
+        <maven.compiler.release>17</maven.compiler.release>
         <!-- útgáfa á javafx -->
 
         <javafx.version>18.0.2</javafx.version>
