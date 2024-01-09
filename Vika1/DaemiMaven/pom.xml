@@ -30,7 +30,7 @@ Dæmi um Maven skrá til að byggja javafx forrit
         <junit.version>5.8.2</junit.version>
          <maven.compiler.release>17</maven.compiler.release>
         <maven.plugin.version>3.8.1</maven.plugin.version>
-        <javafx.version>17.0.1</javafx.version>
+        <javafx.version>19.0.2.1</javafx.version>
             <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
         </properties>
     <!--
@@ -93,6 +93,9 @@ Dæmi um Maven skrá til að byggja javafx forrit
             <!--
              Keyrslurnar tilgreindar
             -->
+            <!--
+               Plugin fyrir keyrslu javafx:run
+            -->
 
             <plugin>
                 <groupId>org.openjfx</groupId>
@@ -129,13 +132,10 @@ Dæmi um Maven skrá til að byggja javafx forrit
                         <phase>package</phase>
                         <id>attach-javadocs</id>
                         <!--
-                            Hjá mér var nauðsynlegt að stilla
-                            JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 í Environment variables
-                            ekki til fyrirmyndar en eina sem virkaði
-
                             set which of the goals in the plugin to execute. The JavaDoc plugin
                             has a total of 16 goals to choose from. See: https://maven.apache.org/plugins/maven-javadoc-plugin/
-                            The most common once beeing either "javadoc" or "jar"
+                            The most common once being either "javadoc" or "jar" if you want to distribute the javadocs
+                            The files are added to site/apidocs
                         -->
                         <goals>
                             <goal>javadoc</goal>
@@ -150,6 +150,7 @@ Dæmi um Maven skrá til að byggja javafx forrit
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 </project>
