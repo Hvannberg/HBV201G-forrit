@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e7e2e69-2fcc-4164-a49b-e01367e3a956" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Vika1/DaemiMaven/DaemiMaven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/DaemiMaven/DaemiMaven.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Vika1/DaemiMaven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/DaemiMaven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika1/HalloHeimur/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika1/HalloHeimur/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika1/HalloHeimur/src/main/resources/vidmot/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/src/main/resources/vidmot/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Vika7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +23,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2KGrISHyI3T04WWQsx6eG7SNGjl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,32 +32,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/HBV201G-2023/Vika2/HeilsaVinnsla",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2024/HBV201G-forrit/Vika2/Heilsa",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.21494253",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ebba\OneDrive - Háskóli Íslands\Viðmótsforritun 2023\Vika2\Heilsa\src\main\java\is\vidmot" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Heilsa" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Heilsa" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,5 +54,16 @@
       <updated>1673611683919</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
