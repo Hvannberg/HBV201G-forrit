@@ -7,7 +7,11 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.util.Objects;
-
+/**
+ * Application klasinn
+ *
+ * @author Ebba Þóra Hvannberg
+ */
 public class Adal extends Application {
 
     private static final String TITILL = "Heilsa";
