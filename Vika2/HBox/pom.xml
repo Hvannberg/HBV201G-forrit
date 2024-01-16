@@ -4,30 +4,26 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>is</groupId>
-    <artifactId>vidmot</artifactId>
+    <groupId>vidmot</groupId>
+    <artifactId>Hbox</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Heilsa</name>
+    <name>Hbox</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.1</junit.version>
-        <!-- útgáfa á javac þýðanda - gætið að það sé ekki hærra en JRE útgáfan -->
-        <maven.compiler.release>21</maven.compiler.release>
-        <!-- útgáfa á javafx -->
-        <javafx.version>21</javafx.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>${javafx.version}</version>
+            <version>17.0.2</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>${javafx.version}</version>
+            <version>17.0.2</version>
         </dependency>
 
         <dependency>
@@ -51,7 +47,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.10.1</version>
                 <configuration>
-                    <release>${maven.compiler.release}</release>
+                    <source>17</source>
+                    <target>17</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -63,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>is.vidmot/is.vidmot.Adal</mainClass>
+                            <mainClass>vidmot/vidmot.Main</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

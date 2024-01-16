@@ -17,7 +17,7 @@
     <children>
         <Button fx:id="jLitur" onAction="#skiptaUmLitHandler" prefHeight="29.0" prefWidth="167.0" style="-fx-background-color: green;" text="Grænn" textFill="WHITE" GridPane.rowIndex="2" />
         <Label fx:id="jHalloNafn" prefHeight="48.0" prefWidth="154.0" GridPane.columnIndex="1" />
-        <TextField fx:id="jNafn" onAction="#heilsaHandler" prefHeight="30.0" prefWidth="156.0" promptText="Sláðu inn nafn" GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <TextField fx:id="jNafn" onAction="#heilsaHandler"  prefHeight="30.0" prefWidth="156.0" promptText="Sláðu inn nafn" GridPane.columnIndex="1" GridPane.rowIndex="1">
             <opaqueInsets>
                 <Insets />
             </opaqueInsets>
