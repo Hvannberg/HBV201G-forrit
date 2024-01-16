@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e7e2e69-2fcc-4164-a49b-e01367e3a956" name="Changes" comment="">
+    <list default="true" id="5e7e2e69-2fcc-4164-a49b-e01367e3a956" name="Changes" comment="lagfæring á útgáfu þýðanda">
       <change afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Vika1/HalloHeimur/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Vika1/HalloHeimur/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Vika1/HalloHeimur/src/main/resources/vidmot/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/src/main/resources/vidmot/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is/vidmot/HeilsaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/vidmot/HeilsaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/is/vidmot/Heilsa.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/is/vidmot/Heilsa.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="temurin-21" />
+  </component>
   <component name="ProjectId" id="2KGrISHyI3T04WWQsx6eG7SNGjl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,17 +37,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2024/HBV201G-forrit/Vika2/Heilsa",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/ebba/Downloads",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.21494253",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ebba\OneDrive - Háskóli Íslands\Viðmótsforritun 2023\Vika2\Heilsa\src\main\java\is\vidmot" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean compile -U" />
+      <command value="mvn clean install -U" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,6 +64,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673611683919</updated>
     </task>
+    <task id="LOCAL-00001" summary="lagfæring á útgáfu þýðanda">
+      <created>1705266309903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705266309903</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lagfæring á útgáfu þýðanda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lagfæring á útgáfu þýðanda" />
   </component>
 </project>
