@@ -12,8 +12,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.1</junit.version>
-        <!-- Þið getið breytt þessum útgáfum eftir því hvað hantar ykkur -->
-        <javafx.version>19.0.2.1</javafx.version>
+        <!-- Þið getið breytt þessum útgáfum eftir því hvað hentar ykkur -->
+        <javafx.version>21</javafx.version>
         <maven.compiler.release>21</maven.compiler.release>
     </properties>
 
