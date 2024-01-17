@@ -12,6 +12,9 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("vidmot.fxml"));
         primaryStage.setTitle("Sama breidd");
+        // Ef þú vilt ekki að notandi stækki eða minnki gluggann
+
+      //  primaryStage.setResizable (false);
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
