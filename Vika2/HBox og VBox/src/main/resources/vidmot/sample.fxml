@@ -23,7 +23,7 @@
       <VBox prefHeight="200.0" prefWidth="100.0">
          <children>
             <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="V1" />
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="108.0" text="V2" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="V2" />
          </children>
          <HBox.margin>
             <Insets />
