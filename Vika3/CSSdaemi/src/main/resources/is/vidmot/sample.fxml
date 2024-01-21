@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="213.0" prefWidth="455.0" vgap="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.vidmot.Controller">
+   <rowConstraints>
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" />
+      <RowConstraints maxHeight="25.5" minHeight="0.0" prefHeight="0.0" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints maxWidth="113.0" minWidth="10.0" prefWidth="113.0" />
+      <ColumnConstraints maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints maxWidth="95.0" minWidth="10.0" prefWidth="87.0" />
+   </columnConstraints>
+   <children>
+      <TextField maxHeight="29.0" minHeight="29.0" prefHeight="29.0" prefWidth="205.0" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+      <Label fx:id="nafn" prefHeight=" 29.0" prefWidth="165.0" stylesheets="@css/stakirHlutir.css" text="Nafn:" GridPane.halignment="RIGHT" />
+      <Label prefHeight="39.0" prefWidth="113.0" text="Sími:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+      <Label prefHeight="29.0" prefWidth="119.0" text="Heimilisfang:" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+      <TextField fx:id="fxSimi" maxHeight="29.0" minHeight="29.0" prefHeight="29.0" prefWidth="205.0" styleClass="text-field-simi" stylesheets="@css/text-field-simi.css" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+      <TextField maxHeight="29.0" minHeight="29.0" minWidth="-Infinity" prefHeight="29.0" prefWidth="189.0" styleClass="text-field-stor" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+   </children>
+   <padding>
+      <Insets left="5.0" right="15.0" />
+   </padding>
+   <stylesheets>
+      <URL value="@css/EinfaldurCSS.css" />
+      <URL value="@css/margirSelector.css" />
+   </stylesheets>
+</GridPane>
