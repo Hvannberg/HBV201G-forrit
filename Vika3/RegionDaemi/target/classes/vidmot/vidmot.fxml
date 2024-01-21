@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="122.0" prefWidth="122.0" spacing="5.0" style="-fx-shape: &quot;M 33.22656,4.88086 19.9414,21.228516 10.31445,15.714844 0,27.251953 1.49023,28.583985 10.72656,18.25586 20.42187,23.808594 34.77734,6.142578 Z m 1.8,-0.66836 -1.07812,0.410157 -10.41406,3.972656 9.55468,7.763672 z&quot;; -fx-background-color: red;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.ShapeController">
+   <children>
+      <Button fx:id="fxHnappur" mnemonicParsing="false" onAction="#fxYtaHandler" prefHeight="122.0" prefWidth="122.0" text="23">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin></Button>
+      <Button fx:id="fxHnappurHI" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#fxYtaHI" prefHeight="122.0" prefWidth="122.0" text="42" />
+   </children>
+</VBox>
