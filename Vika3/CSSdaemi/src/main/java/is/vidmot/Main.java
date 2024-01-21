@@ -14,8 +14,6 @@ public class Main extends Application {
         primaryStage.setTitle("Sýnidæmi Styles");
         Scene s = new Scene(root, 350, 275);
 
-  //      s.getStylesheets().add(getClass().getResource("EinfaldurCSS.css").toExternalForm());
-
         primaryStage.setScene(s);
         primaryStage.show();
     }
