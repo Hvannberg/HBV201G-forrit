@@ -30,7 +30,7 @@
       <Insets left="5.0" right="15.0" />
    </padding>
    <stylesheets>
-      <URL value="@EinfaldurCSS.css" />
+      <URL value="@css/EinfaldurCSS.css" />
       <URL value="@css/margirSelector.css" />
    </stylesheets>
 </GridPane>
