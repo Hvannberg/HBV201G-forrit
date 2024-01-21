@@ -11,9 +11,4 @@ public class Controller  {
     public TextField fxSimi;
     public Label nafn;
 
-
-    public void initialize() {
-
-        fxSimi.getStyleClass().add("text-field-stor"); // style er í EinfaldurCSS.css
-    }
 }
