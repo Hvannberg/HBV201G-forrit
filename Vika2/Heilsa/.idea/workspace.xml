@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e7e2e69-2fcc-4164-a49b-e01367e3a956" name="Changes" comment="lagfæring á útgáfu þýðanda">
-      <change afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Vika1/HalloHeimur/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Vika1/HalloHeimur/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Vika1/HalloHeimur/src/main/resources/vidmot/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/HalloHeimur/src/main/resources/vidmot/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vika3/BreytaBorderCSS/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/vidmot/HeilsaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/vidmot/HeilsaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/is/vidmot/Heilsa.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/is/vidmot/Heilsa.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika3/BreytaBorderCSS/src/main/java/vidmot/breytaborder/BorderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika3/BreytaBorderCSS/src/main/java/vidmot/breytaborder/BorderController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.21494253",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -88,5 +83,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lagfæring á útgáfu þýðanda" />
     <option name="LAST_COMMIT_MESSAGE" value="lagfæring á útgáfu þýðanda" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
