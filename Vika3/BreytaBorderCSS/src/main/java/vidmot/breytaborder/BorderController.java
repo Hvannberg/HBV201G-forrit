@@ -18,7 +18,7 @@ public class BorderController {
 
     @FXML
     protected void onGraent(ActionEvent actionEvent) {
-        fxTexti.getStyleClass().removeAll("texti-red"); // fjarlægja rauða styleClass
-        fxTexti.getStyleClass().add("texti-green");         // bæta við græna styleClass
+       fxTexti.getStyleClass().removeAll("texti-red"); // fjarlægja rauða styleClass
+       fxTexti.getStyleClass().add("texti-green");         // bæta við græna styleClass
     }
 }

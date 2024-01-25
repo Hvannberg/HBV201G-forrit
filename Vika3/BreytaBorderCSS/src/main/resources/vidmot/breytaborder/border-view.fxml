@@ -10,5 +10,5 @@
     </padding>
    <TextField fx:id="fxTexti" styleClass="texti-green" />
     <Button onAction="#onRautt" text="Rautt" />
-    <Button onAction="#onGraent" text="Graent" />
+    <Button onAction="#onGraent" text="Grænt" />
 </VBox>
