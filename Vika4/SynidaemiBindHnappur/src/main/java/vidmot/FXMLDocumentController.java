@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
  *
  * @author Ebba Þóra Hvannberg ebba@hi.is
  */
-public class FXMLDocumentController implements Initializable {
+public class FXMLDocumentController  {
 
     private int fjoldi=3;
 
@@ -28,8 +28,8 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private Button nyUmferd;
 
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
+
+    public void initialize() {
         // Sýnir hvernig við gerum hlut (kastaHnappur)
         // óvirkan (disabled) þegar viðmótshlutur(fjoldiKasta)
         // hefur ákveðið gildi, hér 0
