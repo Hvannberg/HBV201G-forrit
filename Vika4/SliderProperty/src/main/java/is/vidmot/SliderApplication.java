@@ -16,8 +16,6 @@ public class SliderApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(SliderApplication.class.getResource("slider-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        // tengja .css skrá við senuna
-        scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
         stage.setTitle("ChangeListener demo - frá JavaCodeJunkie");
         stage.setScene(scene);
         stage.show();

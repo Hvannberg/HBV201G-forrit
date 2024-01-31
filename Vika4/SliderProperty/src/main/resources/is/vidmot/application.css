@@ -10,9 +10,10 @@
 -fx-background-color: LIGHTGREY
 }
 
-.slider .thumb {
+.orangeLitur .thumb {
 -fx-background-color: ORANGE
 }
+
 
 .slider:vertical .track {
 -fx-background-color: GREY
