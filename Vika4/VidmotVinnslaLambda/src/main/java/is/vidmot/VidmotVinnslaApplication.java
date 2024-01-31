@@ -7,16 +7,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-/**
- * Dæmi sem er endurforritað frá youtube.com  @JavaCodeJunkie #44
- *
- */
-public class SliderApplication extends Application {
+public class VidmotVinnslaApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(SliderApplication.class.getResource("slider-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("ChangeListener demo - frá JavaCodeJunkie");
+        FXMLLoader fxmlLoader = new FXMLLoader(VidmotVinnslaApplication.class.getResource("vidmotvinnsla-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        stage.setTitle("Bind á milli vinnslu og viðmóts");
         stage.setScene(scene);
         stage.show();
     }
