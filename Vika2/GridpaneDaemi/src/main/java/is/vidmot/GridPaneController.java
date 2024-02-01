@@ -20,7 +20,6 @@ public class GridPaneController {
     @FXML
     protected void onHelloButtonClick(ActionEvent actionEvent) {
 
-        Button b = (Button) actionEvent.getSource();
         welcomeText.setText("Dæmi um GridPane");
     }
 
