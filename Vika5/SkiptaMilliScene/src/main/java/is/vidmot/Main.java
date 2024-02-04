@@ -15,20 +15,26 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader1 = new FXMLLoader(getClass().getResource("sample.fxml"));
+        // Viðmótstré leikmans hlaðið inn
         Parent root1 = loader1.load();
+        // Sena búin til með viðmótstrénu og gluggi opnaður
         nyrGluggi(primaryStage, root1, "Einn gluggi");
+        // Náum í controller fyrir leikmanninn
         Controller c1 = loader1.getController();
 
         // Sena mótherjans búinn til
         FXMLLoader loader2 = new FXMLLoader(getClass().getResource("sample.fxml"));
+        // Viðmótstré mótherjans hlaðið inn
         Parent root2 = loader2.load();
-        new Scene (root2, 300, 275);    // ekki notað en þarf að búa til senu
+        new Scene (root2, 300, 275);    // ekki notað en þarf að búa til senu með rótinni
+        // Náum í controller fyrir mótherjann
         Controller c2 = loader2.getController();
 
         // látum controllerana benda á hvorn annan
+        // c1 bendir á c2
         stillaController(c1, c2, "Jón");
+        // c2 bendir á c1
         stillaController(c2, c1, "Bára");
-
     }
 
     /**

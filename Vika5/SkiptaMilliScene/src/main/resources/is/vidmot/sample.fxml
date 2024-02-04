@@ -8,7 +8,7 @@
    <children>
       <VBox prefHeight="400.0" prefWidth="158.0" spacing="5.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" text="Button">
+            <Button onAction="#onHaekka" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" text="Hækka">
                <VBox.margin>
                   <Insets top="5.0" />
                </VBox.margin></Button>
