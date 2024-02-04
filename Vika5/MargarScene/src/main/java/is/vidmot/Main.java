@@ -21,14 +21,19 @@ import javafx.stage.Stage;
     @Override
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader1 = new FXMLLoader(getClass().getResource("sample.fxml"));
+        // viðmótstré hlaðið inn í rót root1 - hér verður til einn controller hlutur
         Parent root1 = loader1.load();
         FXMLLoader loader2 = new FXMLLoader(getClass().getResource("sample.fxml"));
+        // viðmótstré hlaðið inn í rót root2 - hér verður til annar controller hlutur
         Parent root2 = loader2.load();
+        // Sena sem hefur viðmótstéð  root1 sett í gluggann primaryStage
         nyrGluggi(primaryStage, root1, "Einn gluggi");
 
+        // Búinn til annar gluggi secondaryStage
         Stage secondaryStage = new Stage();
         secondaryStage.setX(primaryStage.getX()+30);
         secondaryStage.setY(primaryStage.getY()+30);
+        //  // Sena sem hefur viðmótstéð  root1 sett í gluggann secondaryStage
         nyrGluggi(secondaryStage, root2, "Annar gluggi");
     }
 
@@ -40,10 +45,12 @@ import javafx.stage.Stage;
      */
     private void nyrGluggi(Stage s, Parent root, String t) {
         s.setTitle(t);
+        // senan búinn til með rót af viðmótstrénu root
         Scene s1 = new Scene(root, 300, 275);
+        // senan tengd við gluggann
         s.setScene(s1);
+        // glugginn birtur
         s.show();
-
     }
 
 

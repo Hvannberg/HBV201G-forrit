@@ -27,7 +27,8 @@ public class Controller {
     @FXML
     private Label fxEfri;
 
-    private Controller motherjinn;  // tilvísun í controller mótherjans
+    // ekki notað hér en mætti nota til að tengja tvo controllera saman
+    private Controller motherjinn;  // tilvísun í hinn controllerinn
 
 
     public void initialize() {
