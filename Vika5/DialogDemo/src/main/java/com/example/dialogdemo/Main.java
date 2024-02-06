@@ -17,8 +17,8 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-	private Button addButton = new Button("Add Person");
-	private ListView<String> listView = new ListView<>();
+	private final Button addButton = new Button("Add Person");
+	private final ListView<String> listView = new ListView<>();
 
 	@Override
 	public void start(Stage primaryStage) {
@@ -26,17 +26,14 @@ public class Main extends Application {
 			primaryStage.setTitle("Dialog Demo");
 			BorderPane root = new BorderPane();
 			
-			addButton.setOnAction(new EventHandler<ActionEvent>() {
-				@Override
-				public void handle(ActionEvent event) {
-					Dialog<Person> personDialog = new PersonDialog(new Person("", ""));
-					Optional<Person> result = personDialog.showAndWait();
-					if (result.isPresent()) {
-						Person person = result.get();
-						listView.getItems().add(person.getFirstName() + " " + person.getLastName());
-					}
-				}
-			});
+			addButton.setOnAction(event -> { //lambda fall fyrir event handler
+                Dialog<Person> personDialog = new PersonDialog(new Person("", ""));
+                Optional<Person> result = personDialog.showAndWait();
+                if (result.isPresent()) {
+                    Person person = result.get();
+                    listView.getItems().add(person.getFirstName() + " " + person.getLastName());
+                }
+            });
 
 			VBox vbox = new VBox(10);
 			vbox.setAlignment(Pos.CENTER);
