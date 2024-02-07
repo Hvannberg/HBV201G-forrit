@@ -26,6 +26,8 @@ public class Main extends Application {
         FXMLLoader loader2 = new FXMLLoader(getClass().getResource("sample.fxml"));
         // Viðmótstré mótherjans hlaðið inn
         Parent root2 = loader2.load();
+        // hvað gerist ef senan er ekki búin til?
+        // hvað gerist ef root1 er notað í staðinn fyrir root2?
         new Scene (root2, 300, 275);    // ekki notað en þarf að búa til senu með rótinni
         // Náum í controller fyrir mótherjann
         Controller c2 = loader2.getController();
