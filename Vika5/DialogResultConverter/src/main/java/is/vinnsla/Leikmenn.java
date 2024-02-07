@@ -2,7 +2,7 @@
 package is.vinnsla;
 
 /**
- * Inniheldur nöfn tveggja leikmanna 
+ * Vinnsluklai sem inniheldur nöfn tveggja leikmanna
  * @author Ebba Þóra Hvannberg ebba@hi.is
  */
 public class Leikmenn {

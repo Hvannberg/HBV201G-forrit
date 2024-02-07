@@ -23,10 +23,10 @@ public class AdalController {
     /**
      * Býr til dialog, opnar hann og fær gögn úr honum
      */
-    public void initialize() throws IOException {
+    public void initialize() {
         // Býr til dialog áður en gluggi þessa controller er sýndur
         LeikmennDialog d = new LeikmennDialog();
-        // ná í nöfn leikmanna og setja í tilviksbreytu
+        // birta dialog, ná í nöfn leikmanna og setja í tilviksbreytu
         Leikmenn leikmenn = d.getNofnLeikmanna();
         if (leikmenn != null) {
             System.out.println(leikmenn.getNafnLeikmanns1() + " og "

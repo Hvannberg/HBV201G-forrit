@@ -14,7 +14,7 @@ import java.util.Optional;
  *  Nafn    : Ebba Þóra Hvannberg
  *  T-póstur: ebba@hi.is
  *
- *  Lýsing  : 
+ *  Lýsing  : Dialogur fyrir nöfn tveggja leikmanna
  *
  *
  *****************************************************************************/
@@ -32,6 +32,7 @@ public class LeikmennDialog extends Dialog<Leikmenn> {
      * Notendaviðmótið lesið inn og dialogurinn fær pane
      */
     public LeikmennDialog() {
+        // lesa inn dialogpane og setja þennan hlut sem controller
         setDialogPane(lesaLeikmennDialog());
         // sett regla um hvenær í lagi hnappur er virkur
         iLagiRegla();
@@ -48,12 +49,13 @@ public class LeikmennDialog extends Dialog<Leikmenn> {
     }
 
     /**
-     * Útlitið búið til
+     * Útlitið búið til, .fxml skráin lesinn inn og controller settur
      * @return hlutur af DialogPane
      */
     private DialogPane lesaLeikmennDialog() {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("leikmenn-view.fxml"));
         try {
+            // controller er settur sem þessi hlutur
             fxmlLoader.setController(this);
             return fxmlLoader.load();
         } catch (IOException exception) {
@@ -67,6 +69,7 @@ public class LeikmennDialog extends Dialog<Leikmenn> {
     private void iLagiRegla() {
         // fletta upp í lagi hnappnum út frá hnappategund
         Node iLagi = getDialogPane().lookupButton(fxILagi);
+        // setja reglu um hvenær í lagi hnappur er virkur
         iLagi.disableProperty()
                 .bind(fxLeikmadur1.textProperty().isEmpty()
                         .or(fxLeikmadur2.textProperty().isEmpty()));

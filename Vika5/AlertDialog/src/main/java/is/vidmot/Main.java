@@ -21,6 +21,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
+        // búum til tvo ButtonType hluti í forritinu í staðinn fyrir að gera það í .fxml skránni
         ButtonType bType = new ButtonType(ILAGI,
                 ButtonBar.ButtonData.OK_DONE);
         ButtonType hType = new ButtonType(HAETTAVID,
