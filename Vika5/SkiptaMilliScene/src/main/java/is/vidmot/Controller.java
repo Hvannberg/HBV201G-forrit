@@ -55,7 +55,6 @@ public class Controller  {
     public void skiptaMotherja(ActionEvent actionEvent) {
         // náum í núverandi glugga
         Stage s = (Stage)fxLeikmadur.getScene().getWindow();
-
         // setjum senuna sem er tengd við mótherjann
         s.setScene(motherji.fxLeikmadur.getScene());
     }

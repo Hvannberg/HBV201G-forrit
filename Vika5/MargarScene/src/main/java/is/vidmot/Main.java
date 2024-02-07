@@ -23,6 +23,7 @@ import javafx.stage.Stage;
         FXMLLoader loader1 = new FXMLLoader(getClass().getResource("sample.fxml"));
         // viðmótstré hlaðið inn í rót root1 - hér verður til einn controller hlutur
         Parent root1 = loader1.load();
+
         FXMLLoader loader2 = new FXMLLoader(getClass().getResource("sample.fxml"));
         // viðmótstré hlaðið inn í rót root2 - hér verður til annar controller hlutur
         Parent root2 = loader2.load();
