@@ -18,7 +18,7 @@ import javafx.util.Callback;
 
 public class PersonDialog extends Dialog<Person> {
 
-	private Person person;
+	private final Person person;
 
 	private TextField firstNameField;
 	private TextField lastNameField;
@@ -39,7 +39,7 @@ public class PersonDialog extends Dialog<Person> {
 		getDialogPane().getStylesheets().add(getClass().getResource("application/application.css").toExternalForm());
 
 		Node image1 = new ImageView(new Image(getClass().getResourceAsStream("application/dial.png")));
-		// getDialogPane().setGraphic(image1);
+		getDialogPane().setGraphic(image1);
 		getDialogPane().setHeader(image1);
 
 		getDialogPane().getButtonTypes().addAll(ButtonType.OK, ButtonType.CANCEL);
@@ -69,16 +69,13 @@ public class PersonDialog extends Dialog<Person> {
 	}
 
 	private void setResultConverter() {
-		Callback<ButtonType, Person> personResultConverter = new Callback<ButtonType, Person>() {
-			@Override
-			public Person call(ButtonType param) {
-				if (param == ButtonType.OK) {
-					return person;
-				} else {
-					return null;
-				}
-			}
-		};
+		Callback<ButtonType, Person> personResultConverter = param -> {
+            if (param == ButtonType.OK) {
+                return person;
+            } else {
+                return null;
+            }
+        };
 		setResultConverter(personResultConverter);
 	}
 
