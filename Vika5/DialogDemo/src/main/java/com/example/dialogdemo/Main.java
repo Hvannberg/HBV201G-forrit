@@ -35,7 +35,7 @@ public class Main extends Application {
                 }
             });
 
-			VBox vbox = new VBox(11);
+			VBox vbox = new VBox(10);
 			vbox.setAlignment(Pos.CENTER);
 			vbox.setPadding(new Insets(10));
 			vbox.getChildren().addAll(addButton, listView);
