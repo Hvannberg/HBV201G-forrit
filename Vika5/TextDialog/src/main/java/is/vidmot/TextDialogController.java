@@ -17,11 +17,10 @@ import java.util.ResourceBundle;
  * Sýnidæmi fyrir TextInputDialog 
  * @author Ebba Þóra Hvannberg ebba@hi.is
  */
-public class TextDialogController implements Initializable {
+public class TextDialogController  {
     
-    
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
+
+    public void initialize() {
         
         // Textadialog búinn til 
         TextInputDialog d = new TextInputDialog();
@@ -39,7 +38,7 @@ public class TextDialogController implements Initializable {
         if(utkoma.isPresent()) {
             System.out.println ("nafnið er "+utkoma.get());
         }
-        else {
+        else { // notandi ýtti á cancel
             System.out.println ("ekkert svar");
         }
         d.close();
