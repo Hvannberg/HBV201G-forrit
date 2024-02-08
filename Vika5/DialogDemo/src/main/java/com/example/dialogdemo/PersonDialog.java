@@ -36,9 +36,9 @@ public class PersonDialog extends Dialog<Person> {
 		Pane pane = createGridPane();
 		getDialogPane().setContent(pane);
 
-		getDialogPane().getStylesheets().add(getClass().getResource("application/application.css").toExternalForm());
+		getDialogPane().getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 
-		Node image1 = new ImageView(new Image(getClass().getResourceAsStream("application/dial.png")));
+		Node image1 = new ImageView(new Image(getClass().getResourceAsStream("dial.png")));
 		getDialogPane().setGraphic(image1);
 		getDialogPane().setHeader(image1);
 
