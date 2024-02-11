@@ -33,7 +33,7 @@ public class Kennsluskra {
      * @return heiti námskeiðs
      */
     public Namskeid getNamskeid (int index) {
-        return (Namskeid)namskeid.get(index);
+        return namskeid.get(index);
     }
 
     /**

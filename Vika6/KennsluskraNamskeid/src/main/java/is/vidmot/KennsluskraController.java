@@ -32,10 +32,11 @@ public class KennsluskraController  {
         listiNamskeid.setItems(kennsluskra.getOllNamskeid());
 
         listiNamskeid.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
+           System.out.println (newValue);
             // Indexinn í listanum.
             virkurIndex = listiNamskeid.getSelectionModel().getSelectedIndex();
             // Til að fá virkni sem skoðar námskeiðið þegar valið breytist þá má gera það svona
-     //       skodaNamskeid(virkurIndex);
+            skodaNamskeid(virkurIndex);
         });
 
         try {
