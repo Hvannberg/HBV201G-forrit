@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="5.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.vidmot.MediaController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+
+  <ImageView fitHeight="30.0" fitWidth="168.0">
+    <Image url="@media/random.jpg" />
+  </ImageView>
+   <HBox alignment="CENTER" prefHeight="28.0" prefWidth="95.0">
+      <children>
+        <Button onAction="#onPlay" style="-fx-background-color:transparent;">
+          <graphic>
+        <ImageView fitHeight="20" fitWidth="20.0" preserveRatio="true">
+          <Image url="@media/play.png" />
+        </ImageView>
+          </graphic>
+        </Button>
+        <Button onAction="#onPause" style="-fx-background-color:transparent;">
+          <graphic>
+                <ImageView fitHeight="20" fitWidth="20" preserveRatio="true">
+                  <Image url="@media/pause.png" />
+                </ImageView>
+          </graphic>
+        </Button>
+      </children>
+   </HBox>
+</VBox>
