@@ -5,6 +5,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
+<?import javafx.scene.media.MediaView?>
 <VBox alignment="CENTER" spacing="5.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.vidmot.MediaController">
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
@@ -13,6 +14,7 @@
   <ImageView fitHeight="30.0" fitWidth="168.0">
     <Image url="@media/random.jpg" />
   </ImageView>
+
    <HBox alignment="CENTER" prefHeight="28.0" prefWidth="95.0">
       <children>
         <Button onAction="#onPlay" style="-fx-background-color:transparent;">

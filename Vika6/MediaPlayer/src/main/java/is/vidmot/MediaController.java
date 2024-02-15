@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import javafx.scene.media.MediaView;
 
 /******************************************************************************
  *  Nafn    : Ebba Þóra Hvannberg
@@ -29,6 +30,7 @@ public class MediaController {
         // hér er búinn til MediaPlayer með nafni á hljóðskrá sem pakkað er inn í Media hlut
         // það er ekki hægt að setja nýtt Media í MediaPlayer og þess vegna þarf að búa til nýjan MediaPlayer þegar nýtt lag er spilað
         mediaPlayer = new MediaPlayer(new Media(getClass().getResource(HLJODSKRA).toExternalForm()));
+
     }
 
     /**
