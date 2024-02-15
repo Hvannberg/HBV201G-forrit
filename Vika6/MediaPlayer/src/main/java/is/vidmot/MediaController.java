@@ -19,8 +19,6 @@ import javafx.scene.media.MediaView;
 public class MediaController {
 
     public static final String HLJODSKRA = "media/sample-15s.wav";
-    @FXML
-    private MediaView fxMediaView;
 
     // tilviksbreytur - spilarinn
     private MediaPlayer mediaPlayer; // munið að bæta við dependency í pom.xml skrá og í module-info.java
