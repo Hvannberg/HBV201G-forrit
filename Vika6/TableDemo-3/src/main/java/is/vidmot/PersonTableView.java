@@ -1,11 +1,9 @@
 package is.vidmot;
 
 import is.vinnsla.Person;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableColumn.CellEditEvent;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
@@ -17,12 +15,13 @@ import java.io.IOException;
 /**
  * Dæmi sem er tekið upprunalega frá JavaCodeJunkie
  * en breytt þannig að .fxml skrá er notuð
- *
+ * <p>
  * Sýnir sérhæfðan klasa
  */
 public class PersonTableView extends VBox {
     @FXML
     private TableView<Person> table;    // taflan
+    // 2 parametrar inni í goggunum, sá fyrri er klasinn fyrir línuna og sá seinni er klasinn fyrir dálkinn
     @FXML
     private TableColumn<Person, String> firstNameCol; // dálkarnir koma hér á eftir
     @FXML
@@ -31,7 +30,7 @@ public class PersonTableView extends VBox {
     private TableColumn<Person, Integer> ageCol;
 
     /**
-     * Lesa inn viðmótið
+     * Lesa inn viðmótið og setja controllerinn
      */
     public PersonTableView() {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("personTable-view.fxml"));
@@ -49,22 +48,19 @@ public class PersonTableView extends VBox {
      * Setja upp bindingu á milli gagna og viðmóts
      */
     private void setjaGogn() {
-        // til að hægt sé að gera breytingar á töflu með því að tvísmella
-        firstNameCol.setCellValueFactory(new PropertyValueFactory<Person, String>("firstName"));
-        firstNameCol.setCellFactory(TextFieldTableCell.forTableColumn());
-        firstNameCol.setOnEditCommit(event -> {    // ef breytingar eru gerðar
+        // til að hægt sé að gera breytingar á cellum í töflu með því að tvísmella
+        bindingCell(firstNameCol, "firstName");
+        firstNameCol.setOnEditCommit(event -> {
             Person person = event.getRowValue();
             person.setFirstName(event.getNewValue());
         });
 
-
-        lastNameCol.setCellValueFactory(new PropertyValueFactory<Person, String>("lastName"));
-        lastNameCol.setCellFactory(TextFieldTableCell.forTableColumn());
+        // alveg eins nema fyrir eftirnafn
+        bindingCell(lastNameCol, "lastName");
         lastNameCol.setOnEditCommit(event -> {
             Person person = event.getRowValue();
             person.setLastName(event.getNewValue());
         });
-
 
         ageCol.setCellValueFactory(new PropertyValueFactory<Person, Integer>("age"));
         ageCol.setCellFactory(TextFieldTableCell.forTableColumn(new IntegerStringConverter()));
@@ -74,11 +70,18 @@ public class PersonTableView extends VBox {
         });
     }
 
-    /**
-     * Bæta við persónum í töfluna
-     * @param person
-     */
-    public void add(Person person) {
-        table.getItems().add(person);
+    private void bindingCell(TableColumn<Person, String> col, String colString) {
+        col.setCellValueFactory(new PropertyValueFactory< >(colString));
+        col.setCellFactory(TextFieldTableCell.forTableColumn());
     }
+
+
+
+/**
+ * Bæta við persónum í töfluna
+ * @param person
+ */
+public void add(Person person) {
+    table.getItems().add(person);
+}
 }
