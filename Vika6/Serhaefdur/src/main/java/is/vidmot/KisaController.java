@@ -59,6 +59,6 @@ public class KisaController {
     }
 
     public void fxEnteredHandler(MouseEvent mouseEvent) {
-        ((DyrSpjald)mouseEvent.getSource()).setStyle("-fx-border-color:RED");
+        ((DyrSpjald)mouseEvent.getSource()).getStyleClass().add("raudur");
     }
 }

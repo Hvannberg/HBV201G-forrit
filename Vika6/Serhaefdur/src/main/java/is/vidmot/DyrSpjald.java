@@ -13,7 +13,7 @@ import java.io.IOException;
  *  Nafn    : Ebba Þóra Hvannberg
  *  T-póstur: ebba@hi.is
  *
- *  Lýsing  : Birtir mynd af dýri
+ *  Lýsing  : Birtir mynd af dýri - sýnir sérhæfðan klasa
  *
  *
  *****************************************************************************/
@@ -23,6 +23,9 @@ public class DyrSpjald extends AnchorPane {
     private ImageView fxDyr;    // tilviksbreyta sett inn handvirkt. engin controller settur
                                 // í .fxml skrána
 
+    /**
+     * Les inn .fxml skrá og setur controllerinn sem þessi hlutur
+     */
     public DyrSpjald () {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("dyr-view.fxml"));
         fxmlLoader.setRoot(this);   // rótin á viðmótstrénu sett hér
@@ -44,6 +47,7 @@ public class DyrSpjald extends AnchorPane {
 
     public void fxMouseExited(MouseEvent mouseEvent) {
         System.out.println (mouseEvent);
-        ((DyrSpjald)mouseEvent.getSource()).setStyle("-fx-border-color:GREEN");
+        ((DyrSpjald)mouseEvent.getSource()).getStyleClass().removeLast(); // rauður fjarlægður
+        ((DyrSpjald)mouseEvent.getSource()).getStyleClass().add("graenn");
     }
 }
