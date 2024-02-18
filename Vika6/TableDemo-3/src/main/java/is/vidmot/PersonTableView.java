@@ -50,9 +50,10 @@ public class PersonTableView extends VBox {
     private void setjaGogn() {
         // til að hægt sé að gera breytingar á cellum í töflu með því að tvísmella
         bindingCell(firstNameCol, "firstName");
+        // handler sem er keyrður þegar búið er að editera selluna
         firstNameCol.setOnEditCommit(event -> {
-            Person person = event.getRowValue();
-            person.setFirstName(event.getNewValue());
+            Person person = event.getRowValue(); // náð í gildi af röðinni (Person)
+            person.setFirstName(event.getNewValue()); // nýja gildið er sett í tilviksbreytuna fyrir firstName
         });
 
         // alveg eins nema fyrir eftirnafn
@@ -62,6 +63,7 @@ public class PersonTableView extends VBox {
             person.setLastName(event.getNewValue());
         });
 
+        // alveg eins nema fyrir age (aldurinn)
         ageCol.setCellValueFactory(new PropertyValueFactory<Person, Integer>("age"));
         ageCol.setCellFactory(TextFieldTableCell.forTableColumn(new IntegerStringConverter()));
         ageCol.setOnEditCommit(event -> {
@@ -71,7 +73,9 @@ public class PersonTableView extends VBox {
     }
 
     private void bindingCell(TableColumn<Person, String> col, String colString) {
+        // tengir gögnin úr vinnsluklasanum (gagnamódelinu) við viðmótið. Það notar colString til að nota réttu get- aðferðina
         col.setCellValueFactory(new PropertyValueFactory< >(colString));
+        // setur upp TextField til að hægt sé að editera sellurnar
         col.setCellFactory(TextFieldTableCell.forTableColumn());
     }
 
