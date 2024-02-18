@@ -26,7 +26,7 @@ public class TveirControllerarSynidaemi extends Application {
     }
 
     /**
-     * @param args the command line arguments
+     * @param args the command line argument
      */
     public static void main(String[] args) {
         launch(args);

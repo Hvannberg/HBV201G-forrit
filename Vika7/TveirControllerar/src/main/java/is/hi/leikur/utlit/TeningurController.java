@@ -30,7 +30,7 @@ public class TeningurController  {
      */
 
     public void initialize() {
-        // TODO
+        //
     }    
   
     public void prenta() {

@@ -19,6 +19,7 @@ import javafx.scene.control.Button;
  */
 public class BordController  {
 
+
     // Hér þarf að bæta við @FXML og passa að hún sé alltaf.
     @FXML
     private TeningurController teningurController;
