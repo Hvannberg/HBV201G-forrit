@@ -14,6 +14,7 @@ import javafx.stage.Stage;
 /**
  *
  * @author Ebba Þóra Hvannberg ebba@hi.is
+ *
  */
 public class ComboMain extends Application {
     
