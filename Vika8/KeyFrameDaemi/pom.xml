@@ -7,7 +7,7 @@
   <groupId>is</groupId>
   <artifactId>vidmot</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Read</name>
+  <name>KeyFrameDaemi</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -55,10 +55,10 @@
         <version>0.0.8</version>
         <executions>
           <execution>
-            <!-- Default configuration for running with: mvn clean javafx:run -->
+            <!-- Breyting - Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>is.vidmot/is.vidmot.ReadApplication</mainClass>
+              <mainClass>is.vidmot/is.vidmot.KeyFramesApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
