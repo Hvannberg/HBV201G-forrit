@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="is.vidmot.KeyFramesController">
+    <Circle fx:id="movingBLUE" fill="BLUE" radius="50" translateX="50" translateY="50" />
+    <Circle fx:id="movingRED" fill="RED" radius="50" translateX="50" translateY="150" />
+    <Circle fx:id="movingOrange" fill="ORANGE" radius="50" translateX="50" translateY="250" />
+</Pane>
