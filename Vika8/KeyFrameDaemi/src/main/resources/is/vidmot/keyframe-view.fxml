@@ -2,7 +2,7 @@
 
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
-
+<!-- fxml skrá -->
 <Pane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="is.vidmot.KeyFramesController">
     <Circle fx:id="movingBLUE" fill="BLUE" radius="50" translateX="50" translateY="50" />
     <Circle fx:id="movingRED" fill="RED" radius="50" translateX="50" translateY="150" />
