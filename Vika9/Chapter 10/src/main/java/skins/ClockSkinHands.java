@@ -18,8 +18,8 @@ import javafx.scene.shape.Shape;
 import javafx.scene.transform.Rotate;
 
 /**
- *
  * Býr til klukku með kls, mínútu og sek vísum
+ *
  * @author sgrinev
  */
 public class ClockSkinHands extends StackPane implements Skin<ClockControl> {
@@ -41,18 +41,18 @@ public class ClockSkinHands extends StackPane implements Skin<ClockControl> {
 
     public ClockSkinHands(ClockControl control) {
         this.control = control;
-        FXML_Lestur.lesa (this, "hands-view.fxml");
+        FXML_Lestur.lesa(this, "hands-view.fxml");
         setMinSize(200, 200);
-        hourHand.setTranslateX(hourHand.getBoundsInLocal().getWidth()/2);
+        hourHand.setTranslateX(hourHand.getBoundsInLocal().getWidth() / 2);
         minuteHand.setTranslateX(minuteHand.getBoundsInLocal().getWidth() / 2);
         secondHand.setTranslateX(secondHand.getBoundsInLocal().getWidth() / 2);
 
         // binding hands to the model value
         control.timeProperty().addListener((e, oldValue, newValue) -> {
-                    rotateSecondHand.setAngle(newValue.getSeconds() * 6 - 90);
-                    rotateMinuteHand.setAngle(newValue.getMinutes() * 6 - 90);
-                    rotateHourHand.setAngle(newValue.getHours() * 30 - 90);
-                });
+            rotateSecondHand.setAngle(newValue.getSeconds() * 6 - 90);
+            rotateMinuteHand.setAngle(newValue.getMinutes() * 6 - 90);
+            rotateHourHand.setAngle(newValue.getHours() * 30 - 90);
+        });
     }
 
     // Hér eru aðferðir sem eru skilgreindar í interface-inu og forritaðar

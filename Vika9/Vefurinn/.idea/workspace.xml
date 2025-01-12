@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44b58075-acc3-4265-a0fe-2b545ae78732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Vika8/MasteringChapter05/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Vika8/Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/Teikning/src/main/java/is/teikning/vidmot/TeiknaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Vika8/TextiRotate/src/main/java/is/textirotate/vidmot/TextController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/TextiRotate/src/main/java/is/textirotate/vidmot/TextController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSON/null" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/Hreyfimyndir/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/Hreyfimyndir/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/Hreyfimyndir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/Hreyfimyndir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/KeyEventOrvatakkar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/KeyEventOrvatakkar/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/KeyEventOrvatakkar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika8/KeyEventOrvatakkar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/Read/src/main/java/is/vidmot/ReadApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/Read/src/main/java/is/vidmot/ReadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika8/Read/src/main/resources/is/vidmot/media/listi1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter 10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/main/java/skins/ClockSkinHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter 10/src/main/java/skins/ClockSkinHands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/main/resources/skins/text-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter 10/src/main/resources/skins/text-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSON/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSON/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObservableJSON/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ObservableJSON/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2Mc1gOwHvAJObQ1EFP0RadPIOY3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,16 +43,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.Vefurinn [javafx:run,DOMModelDemo].executor": "Run",
+    "Maven.Vefurinn [javafx:run@DOMModelDemo].executor": "Run",
+    "Maven.Vefurinn [javafx:run@WebEngineDemo].executor": "Run",
+    "Maven.Vefurinn [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/Vika9/Forrit"
+    "git-widget-placeholder": "Assembly",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2024/HBV201G-forrit/Vika9/Chapter 10"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ebba\OneDrive - Háskóli Íslands\Viðmótsforritun 2023\HBV201G-2023\Vika9\Vefurinn\src\main\java\is\vefurinn" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn javafx:run DOMModelDemo" />
+      <command value="mvn javafx:run@DOMModelDemo" />
+      <command value="mvn javafx:run@WebEngineDemo" />
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e730c52a-1b10-4162-9e4c-a70abdb0e601" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/Vika9/ObservableJSON/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vika9/ObservableJSON/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vika9/ObservableJSON/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vika9/ObservableJSON/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vika9/JSON/null" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_14_26_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_14_26__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vika9/Chapter 10/src/main/java/skins/ClockSkinText.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/Chapter 10/src/main/java/skins/ClockSkinText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika6/KennsluskraNamskeid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika6/KennsluskraNamskeid/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika6/Serhaefdur/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika6/Serhaefdur/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika7/ValmyndirInclude/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika7/ValmyndirInclude/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika8/Hreyfimyndir/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika8/Hreyfimyndir/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika8/Hreyfimyndir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika8/Hreyfimyndir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika8/KeyEventOrvatakkar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika8/KeyEventOrvatakkar/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika8/KeyEventOrvatakkar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika8/KeyEventOrvatakkar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika8/Read/src/main/java/is/vidmot/ReadApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika8/Read/src/main/java/is/vidmot/ReadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika8/Read/src/main/resources/is/vidmot/media/listi1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika9/Chapter 10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/Chapter 10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika9/Chapter 10/src/main/java/skins/ClockSkinHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/Chapter 10/src/main/java/skins/ClockSkinHands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika9/Chapter 10/src/main/resources/skins/text-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/Chapter 10/src/main/resources/skins/text-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika9/JSON/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/JSON/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika9/JSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/JSON/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika9/JSON/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/JSON/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika9/ObservableJSON/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/ObservableJSON/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika9/Vefurinn/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/Vefurinn/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vika9/Vefurinn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vika9/Vefurinn/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +41,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2M0g0jPHkxHzlwGa3FtKXCKz4ej" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,13 +58,23 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Assembly",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/HBV201G-Verkefni",
-    "project.structure.last.edited": "Problems",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2024/HBV201G-forrit/Vika1/HalloHeimur",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+        <option value="jdk-21.0.1-temurin-21.0.1-4caba194b151-b7b86d5d" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

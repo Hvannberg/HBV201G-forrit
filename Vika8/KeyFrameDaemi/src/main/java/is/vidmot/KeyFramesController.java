@@ -25,7 +25,6 @@ public class KeyFramesController {
 
         // Þrjár mismunandi keyframes
         KeyFrame[] keyFrames = new KeyFrame[keyValues.length];
-
         for (int i = 0; i < keyValues.length; i++) {
             keyFrames[i] = new KeyFrame(Duration.seconds(50 + i * 100), keyValues[i]);
         }
@@ -36,5 +35,4 @@ public class KeyFramesController {
         // Spila tímalínuna
         timeline.play();
     }
-
 }
