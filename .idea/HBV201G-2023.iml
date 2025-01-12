@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
+  <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
+    <option name="activeLocationsIds" />
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -42,6 +45,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Vika7/ContextMenu/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Vika7/Valmyndir/src/main/java" isTestSource="false" />
     </content>
+    <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

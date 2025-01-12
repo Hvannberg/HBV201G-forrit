@@ -5,16 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b2805e1-0eb6-4967-8a87-ae3cfa857532" name="Changes" comment="Með KeyValue">
-      <change beforePath="$PROJECT_DIR$/../../Vika1/DaemiMaven/DaemiMaven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/DaemiMaven/DaemiMaven.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Vika1/DaemiMaven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika1/DaemiMaven/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Vika2/Heilsa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika2/Heilsa/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Vika7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Vika9/JSON/null" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika6/KennsluskraNamskeid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika6/KennsluskraNamskeid/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika6/Serhaefdur/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika6/Serhaefdur/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika7/ValmyndirInclude/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika7/ValmyndirInclude/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KeyEventOrvatakkar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KeyEventOrvatakkar/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KeyEventOrvatakkar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KeyEventOrvatakkar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Read/src/main/java/is/vidmot/ReadApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Read/src/main/java/is/vidmot/ReadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Read/src/main/resources/is/vidmot/media/listi1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika9/Chapter 10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika9/Chapter 10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika9/Chapter 10/src/main/java/skins/ClockSkinHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika9/Chapter 10/src/main/java/skins/ClockSkinHands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika9/Chapter 10/src/main/resources/skins/text-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika9/Chapter 10/src/main/resources/skins/text-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika9/JSON/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika9/JSON/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika9/JSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika9/JSON/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika9/JSON/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika9/JSON/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika9/ObservableJSON/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika9/ObservableJSON/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika9/Vefurinn/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vika9/Vefurinn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Vika9/Vefurinn/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -24,13 +46,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2MQ0TvQpDpGHy8jzBdaDUl0oVMu" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,10 +60,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.Hreyfimyndir [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2023/HBV201G-2023/Vika8/Teikning"
+    "git-widget-placeholder": "Assembly",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ebba/OneDrive - Háskóli Íslands/Viðmótsforritun 2024/HBV201G-forrit/Vika8/Hreyfimyndir"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -58,6 +79,9 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="is.hreyfimyndir" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="is.hreyfimyndir.vidmot" />
     </key>
   </component>
   <component name="RunManager" selected="Compound.HreyfinmyndirDebug">
@@ -72,6 +96,7 @@
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -80,9 +105,13 @@
                 <option value="javafx:run@debug" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
@@ -110,6 +139,13 @@
       <item itemvalue="Maven.Hreyfimyndir [javafx:run@debug]" />
       <item itemvalue="Remote JVM Debug.HreyfimyndirRemote" />
     </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
