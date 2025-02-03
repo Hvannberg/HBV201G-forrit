@@ -1,0 +1,20 @@
+.one, .two {
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+
+.two {
+    -fx-background-image:
+            url("myndir/two.png");
+
+}
+
+.one{
+    -fx-background-image:
+            url("myndir/one.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
