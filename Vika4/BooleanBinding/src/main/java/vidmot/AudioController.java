@@ -8,15 +8,7 @@
  *
  *****************************************************************************/
 package vidmot;
-/******************************************************************************
- *  Nafn    : Ebba Þóra Hvannberg
- *  T-póstur: ebba@hi.is
- *
- *  Lýsing  : Sýnidæmi fyrir Bindings.when () .then (). otherwise()
- *            Stýringin fyrir sýnidæmið. Getur spilað og pásað á víxl
- *
- *
- *****************************************************************************/
+
 import javafx.beans.binding.Bindings;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
