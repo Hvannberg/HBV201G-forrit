@@ -44,7 +44,8 @@ public class AudioController {
     public void onSpila(javafx.event.ActionEvent actionEvent) {
         if (audio.isPlayingProperty().get()) {
             audio.pasa();
-        } else {
+        }
+        else {
             audio.spila();
         }
     }
