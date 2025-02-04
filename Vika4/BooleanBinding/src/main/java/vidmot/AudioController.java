@@ -1,3 +1,12 @@
+/******************************************************************************
+ *  Nafn    : Ebba Þóra Hvannberg
+ *  T-póstur: ebba@hi.is
+ *
+ *  Lýsing  : Sýnidæmi fyrir Bindings.when () .then (). otherwise()
+ *            Stýringin fyrir sýnidæmið. Getur spilað og pásað á víxl
+ *
+ *
+ *****************************************************************************/
 package vidmot;
 /******************************************************************************
  *  Nafn    : Ebba Þóra Hvannberg
