@@ -25,7 +25,8 @@ public class AudioController {
     private final Audio audio = new Audio("Take five");
 
     /**
-     * Frumstillir notendaviðmótshluti eftir að .fxml skrá hefur verið lesin inn og viðmótshlutir búnir til
+     * Frumstillir notendaviðmótshluti eftir að .fxml skrá hefur
+     * verið lesin inn og viðmótshlutir búnir til
      */
     public void initialize() {
         fxSpilar.textProperty().bind(Bindings
