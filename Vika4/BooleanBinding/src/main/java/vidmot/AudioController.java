@@ -37,7 +37,8 @@ public class AudioController {
 
 
     /**
-     * Handler fyrir spila hnappinn. Er eins og toggle, spilar ef er í pásu og pásar ef hann er að spila
+     * Handler fyrir spila hnappinn. Er eins og toggle, spilar ef er í pásu og pásar ef hann
+     * er að spila
      * @param actionEvent
      */
     public void onSpila(javafx.event.ActionEvent actionEvent) {
