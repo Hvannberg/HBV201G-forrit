@@ -22,7 +22,7 @@ public class AudioController {
     private Label fxSpilar;
 
     // vinnslan
-    private Audio audio = new Audio("Take five");
+    private final Audio audio = new Audio("Take five");
 
     /**
      * Frumstillir notendaviðmótshluti eftir að .fxml skrá hefur verið lesin inn og viðmótshlutir búnir til
