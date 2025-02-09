@@ -32,8 +32,11 @@ import javafx.stage.Stage;
 
         // Búinn til annar gluggi secondaryStage
         Stage secondaryStage = new Stage();
+
+        // Staðsetning á glugganum sett x+30, y+30 miðað við fyrri gluggann
         secondaryStage.setX(primaryStage.getX()+30);
         secondaryStage.setY(primaryStage.getY()+30);
+
         //  // Sena sem hefur viðmótstéð  root1 sett í gluggann secondaryStage
         nyrGluggi(secondaryStage, root2, "Annar gluggi");
     }
