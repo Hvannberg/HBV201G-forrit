@@ -59,6 +59,12 @@ public class Controller  {
         s.setScene(motherji.fxLeikmadur.getScene());
     }
 
+    /**
+     *
+     * Handler fyrir að hækka stigin hjá leikmanni
+     *
+     * @param actionEvent ónotað
+     */
     public void onHaekka(ActionEvent actionEvent) {
         leikmadur.haekkaStig();
         fxStig.setText(leikmadur.getStig()+"");
