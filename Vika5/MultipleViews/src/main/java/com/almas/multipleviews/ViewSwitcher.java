@@ -27,9 +27,9 @@ public class ViewSwitcher {
     }
 
     /**
-     * Skipta yfir í senu sem er lýst í view
+     * Skipta yfir í viðmótstré sem er lýst í view
      *
-     * @param view
+     * @param view nafn á .fxml skrá
      */
     public static void switchTo(View view) {
         if (scene == null) {
@@ -47,7 +47,7 @@ public class ViewSwitcher {
                 // annars lesa úr .fxml skrá
             } else {
                 System.out.println("Loading from FXML");
-                // lesa inn .fxml skrána og rótin verður root
+                // lesa inn .fxml skrána og rótin á viðmótstrénu verður root
                 root = FXMLLoader.load(
                         ViewSwitcher.class.getResource(view.getFileName())
                 );
