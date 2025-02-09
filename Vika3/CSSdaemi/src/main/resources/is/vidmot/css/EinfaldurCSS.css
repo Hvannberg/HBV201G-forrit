@@ -1,8 +1,11 @@
+
 .root
 {
 -fx-font-family: "serif";
 -fx-font-size: 14pt;
 }
-.text-field-stor {
-    -fx-font-size: 18pt;
+
+.text-field-stor
+{
+-fx-font-size: 18pt;
 }
