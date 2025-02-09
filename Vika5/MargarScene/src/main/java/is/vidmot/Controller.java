@@ -24,8 +24,6 @@ public class Controller {
 
     @FXML
     private Label fxNedri;
-    @FXML
-    private Label fxEfri;
 
     // ekki notað hér en mætti nota til að tengja tvo controllera saman
     private Controller motherjinn;  // tilvísun í hinn controllerinn
