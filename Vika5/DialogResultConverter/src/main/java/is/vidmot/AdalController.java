@@ -5,8 +5,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import is.vinnsla.Leikmenn;
 
-import java.io.IOException;
-
 /******************************************************************************
  *  Nafn    : Ebba Þóra Hvannberg
  *  T-póstur: ebba@hi.is
@@ -25,7 +23,7 @@ public class AdalController {
      */
     public void initialize() {
         // Býr til dialog áður en gluggi þessa controller er sýndur
-        LeikmennDialog d = new LeikmennDialog();
+        LeikmennDialogController d = new LeikmennDialogController();
         // birta dialog, ná í nöfn leikmanna og setja í tilviksbreytu
         Leikmenn leikmenn = d.getNofnLeikmanna();
         if (leikmenn != null) {
@@ -33,7 +31,8 @@ public class AdalController {
                     + leikmenn.getNafnLeikmanns2() + " ætla að spila leikinn");
             fxLeik1.setText(leikmenn.getNafnLeikmanns1());
             fxLeik2.setText(leikmenn.getNafnLeikmanns2());
-        } else {
+        }
+        else {
             System.out.println("leikmenn hættu við ");
             Platform.exit();
         }
