@@ -4,7 +4,6 @@ import is.vinnsla.Leikmenn;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
 
 import java.io.IOException;
@@ -14,15 +13,16 @@ import java.util.Optional;
  *  Nafn    : Ebba Þóra Hvannberg
  *  T-póstur: ebba@hi.is
  *
- *  Lýsing  : Dialogur fyrir nöfn tveggja leikmanna
+ *  Lýsing  : Controller fyrir dialog fyrir nöfn tveggja leikmanna
  *
  *
  *****************************************************************************/
-public class LeikmennDialog extends Dialog<Leikmenn> {
+public class LeikmennDialogController extends Dialog<Leikmenn> {
 
     // viðmótshlutir
     @FXML
-    private TextField fxLeikmadur1; // nafn leikmanns 1 - engin controller í .fxml skrá þannig að breytur eru ekki litaðar
+    private TextField fxLeikmadur1; // nafn leikmanns 1 - engin controller í .fxml skrá þannig að
+    // breytur eru ekki litaðar
     @FXML
     private TextField fxLeikmadur2; // nafn leikmanns 2
     @FXML
@@ -31,7 +31,7 @@ public class LeikmennDialog extends Dialog<Leikmenn> {
     /**
      * Notendaviðmótið lesið inn og dialogurinn fær pane
      */
-    public LeikmennDialog() {
+    public LeikmennDialogController() {
         // lesa inn dialogpane og setja þennan hlut sem controller
         setDialogPane(lesaLeikmennDialog());
         // sett regla um hvenær í lagi hnappur er virkur
@@ -42,7 +42,8 @@ public class LeikmennDialog extends Dialog<Leikmenn> {
         setResultConverter(b -> {                                 // b er af taginu ButtonType
             if (b.getButtonData() == ButtonBar.ButtonData.OK_DONE) {
                 return new Leikmenn(fxLeikmadur1.getText(), fxLeikmadur2.getText());
-            } else {
+            }
+            else {
                 return null;
             }
         });         // endir á d.setResultConverter
@@ -50,6 +51,7 @@ public class LeikmennDialog extends Dialog<Leikmenn> {
 
     /**
      * Útlitið búið til, .fxml skráin lesinn inn og controller settur
+     *
      * @return hlutur af DialogPane
      */
     private DialogPane lesaLeikmennDialog() {
@@ -58,7 +60,8 @@ public class LeikmennDialog extends Dialog<Leikmenn> {
             // controller er settur sem þessi hlutur
             fxmlLoader.setController(this);
             return fxmlLoader.load();
-        } catch (IOException exception) {
+        }
+        catch (IOException exception) {
             throw new RuntimeException(exception);
         }
     }

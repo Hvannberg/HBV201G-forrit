@@ -5,12 +5,9 @@
  */
 package is.vidmot;
 
-import javafx.fxml.Initializable;
 import javafx.scene.control.TextInputDialog;
 
-import java.net.URL;
 import java.util.Optional;
-import java.util.ResourceBundle;
 
 
 /**
@@ -18,10 +15,11 @@ import java.util.ResourceBundle;
  * @author Ebba Þóra Hvannberg ebba@hi.is
  */
 public class TextDialogController  {
-    
-
+    /**
+     * Aðferð sem kallað er á eftir að búið er að lesa inn .fxml skrána
+     * Textadialogur búinn til, hann opnaður og fengin gögn úr honum.
+     */
     public void initialize() {
-        
         // Textadialog búinn til 
         TextInputDialog d = new TextInputDialog();
 
@@ -31,7 +29,7 @@ public class TextDialogController  {
         // Einfaldur texti sem meginmál 
         d.setContentText("Nafn:");
 
-        // Birtum dialog-innm bíðum og fáum útkomuna 
+        // Birtum dialog-inn og bíðum og fáum útkomuna
         // utkoma er af tagi sem inniheldur String 
         Optional<String> utkoma = d.showAndWait();
         // Birtum svarið á console með því að nota get()
