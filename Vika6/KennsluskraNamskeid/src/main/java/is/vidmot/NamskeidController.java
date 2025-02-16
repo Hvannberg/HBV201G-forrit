@@ -15,9 +15,7 @@ import javafx.scene.layout.AnchorPane;
  * @author Ebba Þóra Hvannberg ebba@hi.is
  */
 public class NamskeidController  {
-
-    @FXML
-    private AnchorPane jPane;
+    // viðmótshlutir
     @FXML
     private Label jKodi;
     @FXML
@@ -27,15 +25,17 @@ public class NamskeidController  {
     /**
      * Frumstillir controllerinn
      */
-
     public void initialize() {
         // Búa til nýja senu með rótinni af viðmótstrénu
  //       sena = new Scene(jPane);
         // eða
         sena = new Scene (jKodi.getParent().getParent().getParent());
-    }    
+    }
 
-
+    /**
+     * Birtir gluggann með námskeiði í
+     * @param namskeid námskeiðið
+     */
     public void birtaGluggi(Namskeid namskeid) {
         // setja gögn í viðmótshlutina í tilviksbreytunum
         jKodi.setText(namskeid.getNamsleid());
@@ -43,7 +43,7 @@ public class NamskeidController  {
 
         // Búa til glugga
         Stage gluggi = new Stage();
-        // tengja senu við glugga
+        // tengja senu við glugga - hér er senan geymd en ekki búin til í hvert skipti
         gluggi.setScene(sena);
         // sýna glugga - non-modal
         gluggi.show();

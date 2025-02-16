@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package is.vidmot;
 
 import javafx.application.Application;
@@ -12,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- *
+ * Dæmi sem sýnir ListView
  * @author Ebba Þóra Hvannberg ebba@hi.is
  */
 public class KennsluskraMain extends Application {
@@ -26,7 +22,8 @@ public class KennsluskraMain extends Application {
     }
 
     /**
-     * @param args the command line arguments
+     *  Aðalforritið
+     *  @param args the command line arguments
      */
     public static void main(String[] args) {
         launch(args);
