@@ -15,7 +15,7 @@ public class MainController {
     public BorderPane root;
 
     @FXML
-    private ListView listView;
+    private ListView<String> listView; // Hér hefði mátt setja ListView<Person>
 
      public void onAdd(ActionEvent actionEvent) {
 
