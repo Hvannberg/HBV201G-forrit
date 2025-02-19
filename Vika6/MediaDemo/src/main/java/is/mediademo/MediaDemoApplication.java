@@ -16,7 +16,7 @@ public class MediaDemoApplication extends Application {
     @Override // Override the start method in the Application class
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MediaDemoApplication.class.getResource("mediademo-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 650, 500);
+        Scene scene = new Scene(fxmlLoader.load(), 650, 600);
         stage.setTitle("MediaDemo");
         stage.setScene(scene);
         stage.show();
