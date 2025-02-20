@@ -49,6 +49,7 @@ public class MediaDemoController {
         mediaPlayer = new MediaPlayer(new Media(mediaURL)); // nýr mediaPlayer búinn til með ákveðinni media skrá
         // hægt að nota FileChooser til að ná í slóðina á skránni
         mediaPlayer.setAutoPlay(true);
+        // tengjum media playerinn við notendaviðmótshlutinn
         fxMediaView.setMediaPlayer(mediaPlayer);
         // bindur volume-ið á media player við volume hnappinn
         mediaPlayer.volumeProperty().bind(
