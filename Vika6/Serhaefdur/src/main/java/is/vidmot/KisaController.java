@@ -43,7 +43,6 @@ public class KisaController {
     }
 
 
-
     /**
      * Setur nýja mynd af kisu af handahófi í myndaramma af handahófi
      * Ef enginn kisumynd er sýnileg þá eru þær upphafsstilltar
@@ -52,13 +51,18 @@ public class KisaController {
      */
     @FXML
     public void nyKisaHandler(ActionEvent actionEvent) {
-            // setja kisumynd af handahófi á DyrSpjald "ramma" af handahófi
-            int i = (int) (Math.random() * 3);
-            int j = (int) (Math.random() * 3);
-            ((DyrSpjald) fxKisur.getChildren().get(i)).setDyrMynd(myndir[j]);
+        // setja kisumynd af handahófi á DyrSpjald "ramma" af handahófi
+        int i = (int) (Math.random() * 3);
+        int j = (int) (Math.random() * 3);
+        ((DyrSpjald) fxKisur.getChildren().get(i)).setDyrMynd(myndir[j]);
     }
 
+    /**
+     * Handler fyrir að setja músina inn á svæðið
+     *
+     * @param mouseEvent músaratburðurinn
+     */
     public void fxEnteredHandler(MouseEvent mouseEvent) {
-        ((DyrSpjald)mouseEvent.getSource()).getStyleClass().add("raudur");
+        ((DyrSpjald) mouseEvent.getSource()).getStyleClass().add("raudur");
     }
 }
