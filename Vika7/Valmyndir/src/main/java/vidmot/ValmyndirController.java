@@ -1,5 +1,5 @@
 
-package vika7.vidmot;
+package vidmot;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -15,33 +15,20 @@ import javafx.scene.input.ContextMenuEvent;
  */
 public class ValmyndirController{
 
-
     @FXML
-    private TextField fxTexti;
+    private TextField fxTexti; // textasvið í glugganum
     @FXML
-    private Label fxValid;
+    private Label fxValid; // sýnir hvað er valið
 
-
+    /**
+     * Upphafsstillir controllerinn
+     */
     public void initialize() {
         ContextMenu samhengi = fxTexti.getContextMenu();
 
         // Birta context menu á textasvið þegar action atburður verður á fxTexti
+        // Lambda fall sem tekur inn atburð e og sýnir context menu miðað við fxTexti viðmótshlutnum
         fxTexti.setOnAction(e -> samhengi.show(fxTexti, Side.BOTTOM, 0, 0));
-    }
-
-    /***
-     * Atburðahandler fyrir new valmyndarstakið. Birtir einfaldan
-     * dialog 
-     * @param event atburður ónotað
-     */
-    @FXML
-    private void newHandler(ActionEvent event) {
-        Alert newTextabod = new Alert(Alert.AlertType.INFORMATION);
-        newTextabod.setTitle("new");
-        newTextabod.setHeaderText("new");
-        newTextabod.setContentText("new eitthvað ...");
-
-        newTextabod.showAndWait();
     }
 
     /***
@@ -52,10 +39,8 @@ public class ValmyndirController{
     @FXML
     private void closeHandler(ActionEvent event) {
         fxValid.setText("Closing");
-        Platform.exit();
-        System.exit(0);
+        Platform.exit();    // losar alla resourca og hættir
     }
-
 
     /**
      * Dummy handler fyrir translate aðgerðina í context menu
@@ -68,20 +53,38 @@ public class ValmyndirController{
     /**
      * Opnar contextmenu sem er tengdur við textasviðið þegar hægri smellt er í Anchor
      * pane
-     * @param contextMenuEvent
+     * @param contextMenuEvent ónotað
      */
     public void contextHandler(ContextMenuEvent contextMenuEvent) {
         fxTexti.getContextMenu().show(fxTexti, Side.BOTTOM, 0, 0);
         fxValid.setText("Context handler");
-        System.out.println ("context handler");
     }
 
+    /**
+     * Handler fyrir cascading valmyndarstak
+     * @param actionEvent ónotað
+     */
     public void fxCascadingHandler(ActionEvent actionEvent) {
         fxValid.setText("Cascading");
-        System.out.println ("Cascading ");
     }
 
+    /**
+     * Handler fyrir about valmyndarstak
+     * @param actionEvent ónotað
+     */
     public void fxAboutHandler(ActionEvent actionEvent) {
         fxValid.setText("About");
+    }
+
+    /**
+     * handler fyrir new valmyndarstakið. Opnar Alert glugga
+     * @param actionEvent ónotað
+     */
+    public void newHandler(ActionEvent actionEvent) {
+        Alert a = new Alert (Alert.AlertType.INFORMATION,
+                "einhver skilaboð", ButtonType.OK);
+        a.setTitle("New");
+        a.setHeaderText("Hausinn");
+        a.showAndWait();
     }
 }
