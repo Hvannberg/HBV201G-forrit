@@ -3,13 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package vika7.vidmot;
+package vidmot;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+
+import java.util.Objects;
 
 /**
  *
@@ -19,10 +21,8 @@ public class ValmyndirMain extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Valmyndir.fxml"));
-        
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Valmyndir.fxml")));
         Scene scene = new Scene(root);
-        
         stage.setScene(scene);
         stage.show();
     }
