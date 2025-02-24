@@ -3,11 +3,8 @@ Ebba Þóra Hvannberg ebba@hi.is
  */
 package is.hi.leikur.utlit;
 
-import java.net.URL;
-import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 
 /**
@@ -19,14 +16,15 @@ import javafx.scene.control.Button;
  */
 public class BordController  {
 
-
     // Hér þarf að bæta við @FXML og passa að hún sé alltaf.
     @FXML
     private TeningurController teningurController;
     @FXML
     private Button fjoldiReita; // Fjölda reita sem á að fara áfram
 
-
+    /**
+     * Frumstillir controllerinn með því að setja þennan controller í tenings controllerinn
+     */
     public void initialize() {
         teningurController.setBordController(this);
     }

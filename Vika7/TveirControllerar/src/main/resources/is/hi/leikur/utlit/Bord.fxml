@@ -4,10 +4,15 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 
-<AnchorPane id="AnchorPane" prefHeight="267.0" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hi.leikur.utlit.BordController">
+<AnchorPane id="AnchorPane" prefHeight="267.0" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hi.leikur.utlit.BordController">
     <children>
       <HBox layoutX="14.0" layoutY="14.0" prefHeight="207.0" prefWidth="260.0">
          <children>
+             <!--
+             include á Teningur.fxml og tilviksbreyta teningurController verður til í BordController
+             og mun innihalda tenings controllerinn
+             -->
             <fx:include fx:id="teningur" source="Teningur.fxml" />
             <Button fx:id="fjoldiReita" mnemonicParsing="false" onAction="#fyrstiHnappur" prefHeight="38.0" prefWidth="95.0" text="Í einni skrá" />
          </children></HBox>

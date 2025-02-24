@@ -24,7 +24,7 @@
         </TextField>
     </children>
     <!--
-    Context menu fyrir AnchorPane
+    Context menu fyrir AnchorPane - er ekki hluti að viðmótstrénu en notaður í forritinu
     -->
     <fx:define>
         <ContextMenu fx:id="contextAnchor">
