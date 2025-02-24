@@ -25,14 +25,10 @@ public class TeningurController  {
     @FXML
     private Button jTeningsHnappur;         // hnappurinn sem hefur teninginn
 
-    /**
-     * Initializes the controller class.
-     */
 
-    public void initialize() {
-        //
-    }    
-  
+    /**
+     * Kallað á af BordController - sýnir samskiptin
+     */
     public void prenta() {
         System.out.println("prenta í TeningurController");
     }

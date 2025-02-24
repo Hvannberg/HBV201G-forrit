@@ -11,7 +11,8 @@
         fx:controller="is.hi.leikur.utlit.TeningurController">
    <graphic>
       <ImageView fitHeight="150.0" fitWidth="215.0" pickOnBounds="true" 
-                 preserveRatio="true">
+                 preserveRatio="true"
+                 style="-fx-backgkround-position: center; -fxbackground-size: cover; -fx-background-repeat: no-repeat">
          <image>
             <Image url="@myndir/five.png" />
          </image>
