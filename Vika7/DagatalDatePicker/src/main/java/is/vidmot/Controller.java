@@ -7,6 +7,7 @@
  *****************************************************************************/
 package is.vidmot;
 
+import javafx.beans.binding.Bindings;
 import javafx.beans.binding.StringBinding;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -40,21 +41,16 @@ public class Controller  {
         fxSnidinnDagur.setText(fxDagatal.getValue().format(f)); // setjum textann sem sniðna dagsetningu
 
         // setjum upp reglurnar
-        StringBinding dagatalBinding = new StringBinding() {
-            {                                           // smiður
-                super.bind(fxDagatal.valueProperty());  // Nýtt StringBinding sem er háð fxDagatal.valueProperty()
-            }
 
-            protected String computeValue() {           // Þetta á að reikna þegar fxDagatal.valueProperty() breytist
-                return fxDagatal.valueProperty().get().format(f);
-            }
-        };
-      fxDagurSjalfvirkt.textProperty().bind(dagatalBinding);  // fxDagurSjalfvirkt uppfært sjálfvirkt með binding - sami formatter
+        fxDagurSjalfvirkt.textProperty().bind(Bindings.createStringBinding(
+                ()->  // hér byrjar lambda fallið, enginn parameter
+                fxDagatal.getValue().format(f),fxDagatal.valueProperty() // skilagildið og vaktbreytan
+        ));
       }
 
 
     /**
-     * Handler fyrir að velja dagsetningu í datepicker. Gerir ekkert nema prentar út dagsetninguna
+     * Handler fyrir að velja dagsetningu í datepicker. Gerir ekkert nema prentar út dagsetninguna í fxSnidinnDagur
      * @param actionEvent ónotað
      */
     public void veljaDagsetningu(ActionEvent actionEvent) {
